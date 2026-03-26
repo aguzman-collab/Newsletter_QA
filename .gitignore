@@ -1,0 +1,29 @@
+node_modules
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# --- Env / Secrets ---
+# Nunca subas credenciales reales al repo
+.env*
+!.env.example
+
+# Directorios de distribución
+dist/
+build/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos de configuración de Git
+.git/
+
+# Archivos de locks
+package-lock.json 
