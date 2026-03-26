@@ -1,15 +1,12 @@
 import homeNewsActions from "../../actions/HomeActions"; 
 import url from "../../url/url";
 
-beforeEach(() =>{
-    cy.viewport(1200,800)
-})
-
 export function homeSuites(){
 
     context('Automatizacion - Home', () => {
 
         it("Section - Home", () =>{
+        cy.viewport(1200,800)
         url.urlhome()
         homeNewsActions.clickBotonCerrar();
         homeNewsActions.validarTextoBienvenidos();

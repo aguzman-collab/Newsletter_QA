@@ -2,15 +2,12 @@ import homeNewsActions from "../../actions/HomeActions";
 import headerNewsActions from "../../actions/HeaderActions";
 import url from "../../url/url";
 
-beforeEach(() =>{
-    cy.viewport(1200,800)
-})
-
 export function headerSuites(){
 
     context('Automatizacion - Header', () => {
 
         it("Section - Header", () =>{
+        cy.viewport(1200,800)
         url.urlhome()
         homeNewsActions.clickBotonCerrar();
         headerNewsActions.validarLogoNutraNews(); 

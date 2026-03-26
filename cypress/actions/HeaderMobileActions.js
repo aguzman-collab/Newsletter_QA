@@ -18,7 +18,7 @@ class headerMobNewsActions{
         }) 
     }
 
-    clickLinkLogoNutraNews(){
+    ValidarLinkLogoNutraNews(){
         HeaderMovil.obtenerLinkLogoNutraNews()
         cy.url('https://newsletter.nutrabiotics.com.co/')
     }

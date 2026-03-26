@@ -6,6 +6,7 @@ export function tribuSuites(){
     context('Automatizacion - Tribu', () => {
 
         it("Section - Tribu", () =>{
+        cy.viewport(1200,800)
         url.urltribu()
         tribuNewsActions.clickBotonCerrarTribu1(); 
         tribuNewsActions.clickBotonCerrarTribu2(); 

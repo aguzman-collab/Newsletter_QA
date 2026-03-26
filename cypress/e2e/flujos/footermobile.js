@@ -7,8 +7,9 @@ export function footerMobileSuites(){
     context('Automatizacion - FooterMovil', () => {
 
         it("Section - FooterMovil", () =>{
+        cy.viewport('iphone-8')
         url.urlhome()
-        homeNewsActions.clickbotoncerrar();
+        homeNewsActions.clickBotonCerrar();
         footerMobNewsActions.validarLogoNutraNewsMovFooter(); 
         footerMobNewsActions.validarTextoSiguenosFooter();
         footerMobNewsActions.clickBotonRedesMovFooterFaceb();

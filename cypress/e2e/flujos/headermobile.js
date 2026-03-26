@@ -7,11 +7,12 @@ export function headerMobileSuites(){
     context('Automatizacion - HeaderMovil', () => {
 
         it("Section - HeaderMovil", () =>{
+        cy.viewport('iphone-8')
         url.urlhome()
         homeNewsActions.clickBotonCerrar();
         headerMobNewsActions.validarLogoNutraNewsMov();
         headerMobNewsActions.ValidarTextoNutraNews(); 
-        headerMobNewsActions.clickLinkLogoNutraNews(); 
+        headerMobNewsActions.ValidarLinkLogoNutraNews(); 
         headerMobNewsActions.clickBotonMenu();
         headerMobNewsActions.clickBotonHomeMov();
         headerMobNewsActions.clickBotonTribuMov(); 
