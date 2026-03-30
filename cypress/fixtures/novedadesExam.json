@@ -1,0 +1,162 @@
+{
+    "Novedtitulo1": "Calamidades Domésticas",
+    "items1": [
+    "Aplica cuando uno de tus familiares se accidenta o enferma, ocurre una eventualidad en tú casa como un incendio o robo.",
+    "Tienes el derecho a una licencia o permiso por calamidad domestica siempre y cuando ocurra en tú entorno familiar y esta exija tú presencia para ser atendida, la compañía tiene la potestad de decidir cuantos días te brindara."
+    ],
+    "Novedtitulo2": "¿Qué pasos debes seguir en este caso?",
+    "items2": [
+    "Calamidad doméstica.",
+    "Fecha en la que se requiere la licencia.",
+    "La aprobación de tú jefe inmediato.",
+    "Presentar registros que soporten la calamidad doméstica."
+    ],
+
+
+    "Novedtitulo3": "Licencias por Luto",
+    "Novedparrafo1": "La compañía concederá al colaborador en caso de presentarse el fallecimiento de tú cónyuge, compañero/a permanente o familiar hasta segundo grado de consanguinidad, una licencia remunerada por luto de 5 días hábiles. El colaborador debe demostrar el grado de parentesco que lo une con el familiar fallecido.",
+    "Novedtitulo4": "¿Qué pasos debes seguir en este caso?",
+    "Novedparrafo2": "Informar a tú líder inmediato y al proceso de Talento Humano, redactando y presentando un comunicado los siguientes datos:",
+    "items3": [
+    "Asunto en el correo: Licencia por Luto.",
+    "Parentesco del familiar.",
+    "Fecha en la que tomara la licencia.",
+    "Presentar como anexo el registro civil de la defunción."
+    ], 
+    "Novedparrafo3": "Registrar la solicitud de licencia al proceso de Talento Humano:",
+
+
+    "NovedtituloPATER": "Licencias de Paternidad",
+    "Novedpregunta1PATER": "¿Qué hacer si estás embarazad@?",
+    "NovedParrafo1PATER": "Cuando tú o tu pareja se encuentren embarazados debes seguir los siguientes pasos:",
+    "itemsPater1":[
+    "Dirígete al médico y solicita una prueba de embarazo para que tengas plena certeza.",
+    "Informa de tu estado de embarazo a tú líder inmediato y al proceso de Talento Humano entregando el soporte médico.",
+    "Seguir las recomendaciones dadas por el proceso de Talento Humano.",
+    "Tienes derecho a pedir tú licencia de paternidad o maternidad cuando tengas el bebé.",   
+    "La indicación del día probable del parto.",
+    "La indicación del día desde el cual debe empezar la licencia, teniendo en cuenta, que por lo menos, ha de iniciarse una semana antes del parto."
+    ],
+    "Novedpregunta2PATER": "¿Qué es una Licencia de Paternidad?",
+    "NovedParrafo2PATER": "Es un descanso remunerado de 15 días hábiles (conforme a la ley 2114 de 2021, que modificó el artículo 236 del Código Sustantivo del Trabajo) que beneficia al padre cotizante, por los hijos nacidos del cónyuge o compañera permanente, este es pagado por el empleador y reconocido por la EPS siempre y cuando el padre cotizara durante todo el periodo de gestación.",
+    "Novedpregunta3PATER": "¿Qué pasos debes seguir en este caso?",
+    "NovedParrafo3PATER": "Presentar certificado médico con la siguiente Presentar certificado médico con la siguiente información:",
+    "NovedParrafo4PATER":"Presenta los siguientes documentos al proceso de Talento Humano:",
+    "NovedParrafo5PATER": "Licencia de maternidad original. Historia clínica. Certificado de nacido vivo. Registro Civil de Nacimiento.",
+    "NovedParrafo6PATER": "Registra tu Licencia en el siguiente botón:",
+
+
+
+    "NovedtituloMATER": "Licencias de Maternidad",
+    "Novedpregunta1MATER": "¿Qué hacer si estás embarazad@?",
+    "NovedParrafo1MATER": "Cuando tú o tu pareja se encuentren embarazados debes seguir los siguientes pasos:",
+    "itemsMATER1":[
+    "Dirígete al médico y solicita una prueba de embarazo para que tengas plena certeza.",
+    "Informa de tu estado de embarazo a tú líder inmediato y al proceso de Talento Humano entregando el soporte médico.",
+    "Seguir las recomendaciones dadas por el proceso de Talento Humano.",
+    "Tienes derecho a pedir tú licencia de paternidad o maternidad cuando tengas el bebé.",   
+    "La indicación del día probable del parto.",
+    "La indicación del día desde el cual debe empezar la licencia, teniendo en cuenta, que por lo menos, ha de iniciarse una semana antes del parto."
+    ],
+    "Novedpregunta2MATER": "¿Qué es una Licencia de Maternidad?",
+    "NovedParrafo2MATER": "Es un descanso remunerado de 18 semanas el cual se cuenta en días calendario que la ley confiere a la mujer que está en periodo de gestación, este es pagado empleador y reconocido por la EPS siempre y cuando la mujer cotizará durante todo el periodo de gestación.",
+    "Novedpregunta3MATER": "¿Qué pasos debes seguir en este caso?",
+    "NovedParrafo3MATER": "Presentar certificado médico con la siguiente Presentar certificado médico con la siguiente información:",
+    "NovedParrafo4MATER":"Presenta los siguientes documentos al proceso de Talento Humano:",
+    "NovedParrafo5MATER": "Licencia de maternidad original. Historia clínica. Certificado de nacido vivo. Registro Civil de Nacimiento.",
+    "NovedParrafo6MATER": "Registra tu Licencia en el siguiente botón:",
+
+
+
+    "NovedtituloAcciTrabaj": "Accidentes de Trabajo",
+    "NovedParrafoAcciTrabaj1": "Es todo suceso repentino que por causa de tú trabajo genere una lesión en el cuerpo, es un accidente de trabajo cuando la actividad que estás desarrollando está relacionada con las funciones de tú cargo o indicadas por tú jefe inmediato y estés dentro de tu jornada laboral.",
+    "NovedpreguntaAcciTrabaj": "¿Qué pasos debes seguir en este caso?",
+    "NovedParrafoAcciTrabaj2": "Si tienes un accidente de trabajo informa inmediatamente a tú líder y al proceso de Talento Humano:",
+    "itemsAcciTrabaj1":[
+    "Gerente de Talento Humano y SST: 318 735 0479",
+    "Coordinador de Talento Humano y SST: 316 525 0834",
+    "Analistas Junior de Talento Humano y SST: 317 513 3978 / 322 514 4719",
+    "Nombres y apellidos",
+    "Número de documento del paciente",
+    "Fecha de inicio",
+    "Número de días",
+    "Diagnóstico",
+    "Fecha de prescripción",
+    "Datos del médico tratante.",
+    "Nutrabiotics: talentohumano@nutrabiotics.co / novedadesnomina@nutrabiotics.com.co",
+    "Nutrabiotics Holding: novedadesnomina@nutrabioticsholding.com",
+    "Nutrapp Innovations: novedadesnomina@nutrapp.com.co"
+    ],
+    "NovedParrafoAcciTrabaj3": "En caso de ser necesario, dirígete al centro asistencial que te indique el personal del proceso de Talento Humano para que te atiendan por parte de nuestra ARL (Seguros Bolívar).",
+    "NovedParrafoAcciTrabaj4": "Envía la incapacidad ORIGINAL expedida por el médico tratante que contenga:",
+    "NovedParrafoAcciTrabaj5": "Correos para envío de incapacidades:",
+    "NovedParrafoAcciTrabaj6": "Solicita tú historia clínica.",
+    "NovedParrafoAcciTrabaj7": "Has parte de la investigación del accidente de trabajo con el proceso de Talento Humano y los integrantes del COPASST.",
+    "NovedParrafoAcciTrabaj8": "La incapacidad solo será válida si te atendieron por la ARL (Seguros Bolívar) de lo contrario será reconocida como incapacidad de origen común.",
+
+
+
+    "NovedtituloVacacio": "Vacaciones",
+    "NovedParrafoVacacio_1": "Tienes derecho a 15 días hábiles continuos de vacaciones por cada año trabajados.",
+    "NovedtituloVacacio_2": "Liquidación Salario Fijo:",
+    "NovedParrafoVacacio_2": "Si tienes un salario fijo tus vacaciones se liquidarán de la siguiente manera:El pago de las vacaciones se te realizará sobre el salario ordinario que estés devengando en el momento de iniciar el disfrute.",
+    "NovedtituloVacacio_3": "Liquidación Salario Variable:",
+    "NovedParrafoVacacio_3": "Si tienes un salario variable tus vacaciones se liquidarán de la siguiente manera:El pago de las vacaciones se realizará sobre el promedio del salario devengando durante los últimos 12 meses.",
+    "NovedParrafoVacacio_4": " Nota: Consulta el estado y la fecha de liquidación de tus vacaciones al proceso de Talento Humano: lsierra@nutrabiotics.com.co",
+    "NovedpreguntaVacacio": "¿Qué pasos debes seguir en este caso?",
+    "itemsVacacio_2":[
+    "Debes gestionar antes del 28 del mes anterior tu solicitud de vacaciones. ",
+    "Redacta una carta con siguientes datos:"
+    ],
+    "itemsVacacio_3":[
+    "Asunto: Solicitud de vacaciones.",
+    "Cantidad de días solicitados y fecha en la que se solicitan.",
+    "Tus datos y firma.",
+    "Aprobación del jefe inmediato."
+    ],
+    "NovedParrafoVacacio_5": " Entregar la carta física y/o con firma digital al proceso de Talento Humano:",
+    "itemsVacacio_4":[
+    "Nutrabiotics: lsierra@nutrabiotics.com.co / novedadesnomina@nutrabiotics.com.co",
+    "Nutrabiotics Holding: novedadesnomina@nutrabioticsholding.com",
+    "Nutrapp Innovations: novedadesnomina@nutrapp.com.co"
+    ],
+    "NovedParrafoVacacio_6": "Puedes descargar a continuación la plantilla para solicitar tus vacaciones:",
+
+
+    "NovedtituloPermiLabora": "Permisos Laborales",
+    "NovedParrafoPermiLabora_1": "Los permisos laborales, son los que la compañía te otorga de manera voluntaria.",
+    "NovedpreguntaPermiLabora": "¿Qué pasos debes seguir en este caso?",
+    "NovedParrafoPermiLabora_2": "Informa a tú jefe inmediato para que evaluase conceder el permiso (Si es posible con 3 días de anterioridad).",
+    "NovedParrafoPermiLabora_3": " Después de aprobado envía una comunicación por correo electrónico o de manera física a talentohumano@nutrabiotics.co y/o novedadesnomina@nutrabiotics.com.co con los siguientes datos:",
+    "itemsPermiLabora_1":[
+    " Asunto: (Acorde al motivo)",
+    " Fecha en la que requieres el permiso.",
+    " Aprobación de tú jefe inmediato."
+    ],
+
+
+    "NovedtituloIncaOrigComu": "Incapacidad de Origen Común",
+    "NovedParrafoIncaOrigComu_1": "Las enfermedades de origen común son las que tienen como causa un accidente o una enfermedad, cuya ocurrencia no tuvo ninguna relación con el trabajo. Causando esto una afectación en la salud.",
+    "NovedParrafoIncaOrigComu_2": "Si presentas este tipo de alteraciones que te impidan prestar o cumplir con tus actividades laborales durante un periodo determinado, la EPS debe expedirte un certificado de incapacidad temporal para el trabajo.",
+    "NovedpreguntaIncaOrigComu": "¿Qué pasos debes seguir en este caso?",
+    "NovedParrafoIncaOrigComu_3": "Presenta la incapacidad ORIGINAL expedida por el médico tratante, que contenga:",
+    "itemsIncaOrigComu_1":[
+    "Nombre completo",
+    "Documento de identidad",
+    "Fecha de inicio y finalización",
+    "Número de días otorgados",
+    "Código del diagnóstico",
+    "Datos del médico tratante"
+    ],
+    "NovedParrafoIncaOrigComu_4": "Sí tú incapacidad es mayor a 2 días, solicita la historia clínica a tú médico tratante y envíala anexando la incapacidad ORIGINAL al Área de Talento Humano.",
+    "NovedParrafoIncaOrigComu_5": "La incapacidad médica solo será válida si la expide la EPS, de lo contrario solicita su transcripción ante esta (si no se transcribe no será válida).",
+    "NovedParrafoIncaOrigComu_6": "Recuerda que debes presentar la documentación soporte al proceso de Talento Humano, máximo 3 días después de iniciada la incapacidad. Registra la información en el siguiente botón:",
+
+
+    "NovedtituloCitaMediProgra": "Citas Médicas Programadas",
+    "NovedParrafoCitaMediProgra_1": "Son consideradas todas aquellas citas solicitadas o asignadas con anterioridad a tú EPS por consulta a tú médico general y/o especialista.",
+    "NovedpreguntaCitaMediProgra": "¿Qué pasos debes seguir en este caso?",
+    "NovedParrafoCitaMediProgra_2": "Recuerda informar con anterioridad a tú jefe inmediato cuando tengas una cita médica.",
+    "NovedParrafoCitaMediProgra_3": "Solicita tú cita ya sea al inicio o al finalizar tú jornada laboral, con el fin que tengas el tiempo suficiente para el desplazamiento y cumplimiento de esta.",
+    "NovedParrafoCitaMediProgra_4": " Una vez cumplas tú cita no olvides entregar el soporte de asistencia a tú Jefe Inmediato y al Área de Talento Humano."
+}

@@ -147,6 +147,78 @@ class FooterMovil{
     obtenerLogo2011MovFooter = () => cy.get('div[data-id="c1ddb63"] img')
 }
 
+class Novedades{
+    ///Calamidades Domesticas 
+    obtenerTextoCalaDome = () => cy.get('h1[class="post_title entry-title"]')
+    obtenerBotonVolver1 = () => cy.get('div[data-id="48bf25b"] a')
+    obtenerParrafoCalaDome = () => cy.get('div[data-id="6dad8cae"] p')
+    obtenerTextoPasos = () => cy.get('div[data-id="6dad8cae"] h3')
+    obtenerParrafoPasos = () => cy.get('div[data-id="6dad8cae"] ul li')
+    obtenerBotonRegisCalami = () => cy.get('div[data-id="ab6d285"] [class="elementor-button-wrapper"]')
+
+    ///Licencias por Luto
+    obtenerTextoLicenLuto = () => cy.get('h1[class="post_title entry-title"]')
+    obtenerBotonVolver2 = () => cy.get('div[data-id="7d1707a"] a')
+    obtenerParrafoLicenLuto = () => cy.get('div[data-id="6dad8cae"] p')
+    obtenerTextoPasosLicenLuto = () => cy.get('div[data-id="6dad8cae"] h3')
+    obtenerParrafoPasosLicenLuto = () => cy.get('div[data-id="6dad8cae"] ul li')
+    obtenerBotonLicenLuto = () => cy.get('div[data-id="0486e14"] a')
+
+    ///Licencias DE PATERNIDAD
+    obtenerTextoLicenPater = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolver3 = () => cy.get('div[data-id="7f3a863"] [class="elementor-button-text"]')
+    obtenerTextoPreguntas = () => cy.get('div[data-id="6dad8cae"] h3')
+    obtenerParrafosLicenPater = () => cy.get('div[data-id="6dad8cae"] p')
+    obteneritemsLicenPater = () => cy.get('div[data-id="6dad8cae"] ul li')
+    obtenerBotonLicenPater = () => cy.get('div[data-id="0486e14"] a')
+
+    ///Licencias DE MATERNIDAD
+    obtenerTextoLicenMater = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolver4 = () => cy.get('div[data-id="89d6b9d"] a')
+    obtenerTextoPreguntasMater = () => cy.get('div[data-id="6dad8cae"] h3')
+    obtenerParrafosLicenMATER = () => cy.get('div[data-id="6dad8cae"] p')
+    obteneritemsLicenMATER = () => cy.get('div[data-id="6dad8cae"] ul li')
+    obtenerBotonLicenMATER  = () => cy.get('div[data-id="0486e14"] a')
+
+    ///Accidentes de Trabajo
+    obtenerTextoAccidenTraba = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolver5 = () => cy.get('div[data-id="be6c886"] a')
+    obtenerParrafosAccidenTraba = () => cy.get('div[data-id="6dad8cae"] p')
+    obtenerTextoPreguntaAccidenTraba = () => cy.get('div[data-id="6dad8cae"] h3')
+    obteneritemsAccidenTraba = () => cy.get('div[data-id="6dad8cae"] ul li')
+    obtenerParrafoAdvertAccidenTraba = () => cy.get('div[data-id="6dad8cae"] em')
+
+    ///Vacaiones
+    obtenerTextoVacaciones = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolver6 = () => cy.get('div[data-id="f571cba"] a ')
+    obtenerTextoMiniVacaciones = () => cy.get('div[class="content_wrap"] h6')
+    obtenerParrafosVacaciones = () => cy.get('div[data-id="6dad8cae"] p')
+    obtenerPreguntaVacaciones = () => cy.get('div[class="content_wrap"] h3')
+    obteneritemsVacaciones = () => cy.get('div[data-id="6dad8cae"] ul li')
+    obtenerBotonVacaciones  = () => cy.get('div[data-id="8d7dcae"] a')
+
+    ///Permisos Laborales
+    obtenerTextoPermiLabora = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolver7 = () => cy.get('div[data-id="dd9add4"] a')
+    obtenerParrafosPermiLabora = () => cy.get('div[data-id="6dad8cae"] p')
+    obtenerPreguntaPermiLabora = () => cy.get('div[data-id="6dad8cae"] h3')
+    obteneritemsPermiLabora = () => cy.get('div[data-id="6dad8cae"] ul li')
+
+    ///Incapacidad de Origen Común
+    obtenerTextoIncaOrigComu = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolver8 = () => cy.get('div[data-id="034841e"] a')
+    obtenerParrafosIncaOrigComu = () => cy.get('div[data-id="6dad8cae"] p')
+    obtenerPreguntaIncaOrigComu = () => cy.get('div[data-id="6dad8cae"] h3')
+    obteneritemsIncaOrigComu  = () => cy.get('div[data-id="6dad8cae"] ul li')
+    obtenerBotonIncaOrigComu  = () => cy.get('div[data-id="4ba03f3"] a')
+
+    ///Citas Médicas Programadas
+    obtenerTextoCitaMediProgra = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolver9 = () => cy.get('div[data-id="8dbe8ff"] a ')
+    obtenerParrafosCitaMediProgra = () => cy.get('div[data-id="6dad8cae"] p')
+    obtenerPreguntaCitaMediProgra = () => cy.get('div[data-id="6dad8cae"] h3')
+}
+
 module.exports = {
     Home: new Home(),
     Header: new Header(),
@@ -154,4 +226,5 @@ module.exports = {
     Tribu: new Tribu(), 
     HeaderMovil: new HeaderMovil(), 
     FooterMovil: new FooterMovil(), 
+    Novedades: new Novedades(), 
 };
