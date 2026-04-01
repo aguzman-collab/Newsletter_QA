@@ -4,7 +4,8 @@ import { homeSuites } from "./home";
 import { tribuSuites } from "./tribu";
 import {headerMobileSuites} from "./headermobile";
 import {footerMobileSuites} from "./footermobile";
-import {novedadesSuites} from "./novedades"
+import {novedadesSuites} from "./novedades";
+import {bienestarSuites} from "./bienestar"; 
 
 
 const flujitos = {
@@ -14,7 +15,8 @@ const flujitos = {
     tribuSuites,
     headerMobileSuites,
     footerMobileSuites,
-    novedadesSuites
+    novedadesSuites,
+    bienestarSuites
 }
 
 export default flujitos;

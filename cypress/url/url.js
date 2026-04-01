@@ -10,6 +10,7 @@ class url {
     urlPermiLabora = () => cy.visit('https://newsletter.nutrabiotics.com.co/permisos-laborales/')
     urlIncaOrigComu= () => cy.visit('https://newsletter.nutrabiotics.com.co/incapacidad-de-origen-comun/')
     urlCitaMediProgra= () => cy.visit('https://newsletter.nutrabiotics.com.co/citas-medicas-programadas/')
+    urlbienestar = () =>  cy.visit('https://newsletter.nutrabiotics.com.co/bienestar/')
 }
 
 module.exports = new url();

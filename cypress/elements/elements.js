@@ -219,6 +219,12 @@ class Novedades{
     obtenerPreguntaCitaMediProgra = () => cy.get('div[data-id="6dad8cae"] h3')
 }
 
+
+class Bienestar{
+    obtenerTextoBienes1 = () => cy.get('div[data-id="ea6da2c"] h2')
+    obtenerParrafoBienes1 = () => cy.get('div[data-id="a367511"] p')
+    obtenerImgBienes = () => cy.get('div[data-id="76e7091a"] img')
+}
 module.exports = {
     Home: new Home(),
     Header: new Header(),
@@ -227,4 +233,5 @@ module.exports = {
     HeaderMovil: new HeaderMovil(), 
     FooterMovil: new FooterMovil(), 
     Novedades: new Novedades(), 
+    Bienestar: new Bienestar(),
 };
