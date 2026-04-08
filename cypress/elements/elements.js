@@ -224,6 +224,233 @@ class Bienestar{
     obtenerTextoBienes1 = () => cy.get('div[data-id="ea6da2c"] h2')
     obtenerParrafoBienes1 = () => cy.get('div[data-id="a367511"] p')
     obtenerImgBienes = () => cy.get('div[data-id="76e7091a"] img')
+
+    ///Parchando
+    obtenerTextoMini = () => cy.get('div[data-id="e7d01d9"] h6')
+    obtenerTituloCumbre = () => cy.get('div[data-id="0ba7394"] h2')
+    obtenerParrafoCumbre = () => cy.get('div[data-id="2b25478"] p')
+    obtenerVermas1 = () => cy.get('div[data-id="0d1e285"] span')
+
+    obtenerTextoMini2 = () => cy.get('div[data-id="5f6ead4"] h6')
+    obtenerTituloPedaleando = () => cy.get('div[data-id="5811c0b"] h2')
+    obtenerParrafoPedaleando = () => cy.get('div[data-id="af43635"] p')
+    obtenerVermas2 = () => cy.get('div[data-id="f752c60"] span')
+    
+    obtenerTextoMini3 = () => cy.get('div[data-id="07198bb"] h6')
+    obtenerTituloBastidas = () => cy.get('div[data-id="d2819a0"] h2')
+    obtenerParrafoBastidas = () => cy.get('div[data-id="3b310fd"] p')
+    obtenerVermas3 = () => cy.get('div[data-id="121979f"] span')
+
+    obtenerTextoMini4 = () => cy.get('div[data-id="14e597ab"] h6')
+    obtenerTituloGarcía = () => cy.get('div[data-id="2f327ef4"] h2')
+    obtenerParrafoGarcía = () => cy.get('div[data-id="339cae80"] p')
+    obtenerVermas4 = () => cy.get('div[data-id="7907ac67"] span')
+    
+    obtenerTextoMini5 = () => cy.get('div[data-id="78c64a6"] h6')
+    obtenerTituloAcuña = () => cy.get('div[data-id="6a4f55c"] h2')
+    obtenerParrafoAcuña = () => cy.get('div[data-id="f8d8bdd"] p')
+    obtenerVermas5 = () => cy.get('div[data-id="b64f684"] span')
+    
+    obtenerTextoMini6 = () => cy.get('div[data-id="302346a"] h6')
+    obtenerTituloCopa = () => cy.get('div[data-id="f7244df"] h2')
+    obtenerParrafoCopa = () => cy.get('div[data-id="c9d5021"] p')
+    obtenerVermas6 = () => cy.get('div[data-id="ce2fdbe"] span')
+
+    obtenerTextoMini7 = () => cy.get('div[data-id="59a6f10"] h6')
+    obtenerTituloLokochon = () => cy.get('div[data-id="85b5bae"] h2')
+    obtenerParrafoLokochon = () => cy.get('div[data-id="3aec29c"] p')
+    obtenerVermas7 = () => cy.get('div[data-id="ae5a8a2"] span')
+
+    obtenerTextoMini8 = () => cy.get('div[data-id="1ee89f6"] h6')
+    obtenerTituloJuntos = () => cy.get('div[data-id="3cb8d53"] h2')
+    obtenerParrafoJuntos = () => cy.get('div[data-id="1425c26"] p')
+    obtenerVermas8 = () => cy.get('div[data-id="6354e69"] span')
+
+    ///La tribu ayuda 
+    obtenerBotonTribuAyu = () => cy.get('li[id="la-tribu-ayuda"]')
+    obtenerTituloPrinTribu = () => cy.get('div[data-id="a814b00"] h2')
+    obtenerTituloMiniEmpre1 = () => cy.get('div[data-id="964515b"] h6')
+    obtenerTituloPrin1 = () => cy.get('div[data-id="6b6d5b5"] h2')
+    obtenerParrafo1 = () => cy.get('div[data-id="73e3951"] p')
+    obtenerVermas1 = () => cy.get('div[data-id="833f613"] a')
+    
+    obtenerTituloMiniVolu1 = () => cy.get('div[data-id="552c61c"] h6')
+    obtenerTituloPrin2 = () => cy.get('div[data-id="b05693e"] h2')
+    obtenerParrafo2 = () => cy.get('div[data-id="40af354"] p')
+    obtenerVermas2 = () => cy.get('div[data-id="25027fa"] a')
+
+    obtenerTituloMiniVolu2 = () => cy.get('div[data-id="35afeb23"] h6')
+    obtenerTituloPrin3 = () => cy.get('div[data-id="78ee755c"] h2')
+    obtenerParrafo3 = () => cy.get('div[data-id="547f00fd"] p')
+    obtenerVermas3 = () => cy.get('div[data-id="65c21c69"] a')
+
+    obtenerTituloMiniVolu3 = () => cy.get('div[data-id="7716f5c"] h6')
+    obtenerTituloPrin4 = () => cy.get('div[data-id="08f485b"] h2')
+    obtenerParrafo4 = () => cy.get('div[data-id="0f247ce"] p')
+    obtenerVermas4 = () => cy.get('div[data-id="5a7118b"] a')
+
+    obtenerTituloMiniVolu4 = () => cy.get('div[data-id="2320df5"] h6')
+    obtenerTituloPrin5 = () => cy.get('div[data-id="688ee71"] h2')
+    obtenerParrafo5 = () => cy.get('div[data-id="10bb60b"] p')
+    obtenerVermas5 = () => cy.get('div[data-id="6c3b5e2"] a')
+
+    obtenerTituloMiniCamp = () => cy.get('div[data-id="c1d9f4d"] h6')
+    obtenerTituloPrin6 = () => cy.get('div[data-id="eb1be75"] h2')
+    obtenerParrafo6 = () => cy.get('div[data-id="5e19d0e"] p')
+    obtenerVermas6 = () => cy.get('div[data-id="9768164"] a')
+    
+    obtenerTituloMiniCamp1 = () => cy.get('div[data-id="8c2f00e"] h6')
+    obtenerTituloPrin7 = () => cy.get('div[data-id="b5c0fb5"] h2')
+    obtenerParrafo7 = () => cy.get('div[data-id="fee0a58"] p')
+    obtenerVermas7 = () => cy.get('div[data-id="2505a6d"] a')
+
+    obtenerTituloMiniVolu5 = () => cy.get('div[data-id="0bfa1a8"] h6')
+    obtenerTituloPrin8 = () => cy.get('div[data-id="5f30842"] h2')
+    obtenerParrafo8 = () => cy.get('div[data-id="5927721"] p')
+    obtenerVermas8 = () => cy.get('div[data-id="bfeab57"] a')
+
+    obtenerTituloMiniVolu6 = () => cy.get('div[data-id="39845c8"] h6')
+    obtenerTituloPrin9 = () => cy.get('div[data-id="d6c95cc"] h2')
+    obtenerParrafo9 = () => cy.get('div[data-id="ccc3164"] p')
+    obtenerVermas9 = () => cy.get('div[data-id="d579d99"] a')
+
+    ///La tribu ayuda 
+    obtenerBotonNoti = () => cy.get('li[id="SST"]')
+    obtenerTituloPrinNoti = () => cy.get('div[data-id="818255c"] h2') 
+
+    obtenerTituloMiniCumpl1 = () => cy.get('div[data-id="d1cd1a8"] h6')
+    obtenerTituloNoti1 = () => cy.get('div[data-id="832ef80"] h2')
+    obtenerParrafoNoti1 = () => cy.get('div[data-id="54d3920"] p')
+    obtenerVermasNoti1 = () => cy.get('div[data-id="cd646c3"] a')
+    
+    obtenerTituloMiniCumpl2 = () => cy.get('div[data-id="a7f5453"] h6')
+    obtenerTituloNoti2 = () => cy.get('div[data-id="d79d740"] h2')
+    obtenerParrafoNoti2 = () => cy.get('div[data-id="3c73e89"] p')
+    obtenerVermasNoti2 = () => cy.get('div[data-id="fdb3e82"] a')
+    
+    obtenerTituloMiniCumpl3 = () => cy.get('div[data-id="88bcdf5"] h6')
+    obtenerTituloNoti3 = () => cy.get('div[data-id="7d98be1"] h2')
+    obtenerParrafoNoti3 = () => cy.get('div[data-id="61adfb2"] p')
+    obtenerVermasNoti3 = () => cy.get('div[data-id="f02067d"] a')
+    
+    obtenerTituloMiniCumpl4 = () => cy.get('div[data-id="2e8197f"] h6')
+    obtenerTituloNoti4 = () => cy.get('div[data-id="5512bf5"] h2')
+    obtenerParrafoNoti4 = () => cy.get('div[data-id="baefef8"] p')
+    obtenerVermasNoti4 = () => cy.get('div[data-id="7c900b2"] a')
+    
+    obtenerTituloMiniCumpl5 = () => cy.get('div[data-id="3dc3c9c"] h6')
+    obtenerTituloNoti5 = () => cy.get('div[data-id="060c5b8"] h2')
+    obtenerParrafoNoti5 = () => cy.get('div[data-id="4d8a8ee"] p')
+    obtenerVermasNoti5 = () => cy.get('div[data-id="d740b33"] a')
+    
+    obtenerTituloMiniCumpl6 = () => cy.get('div[data-id="a5e3d62"] h6')
+    obtenerTituloNoti6 = () => cy.get('div[data-id="ac6ebfa"] h2')
+    obtenerParrafoNoti6 = () => cy.get('div[data-id="329b1c7"] p')
+    obtenerVermasNoti6 = () => cy.get('div[data-id="e9e8eee"] a')
+    
+    obtenerTituloMiniCumpl7 = () => cy.get('div[data-id="6fb509c"] h6')
+    obtenerTituloNoti7 = () => cy.get('div[data-id="b6bbada"] h2')
+    obtenerParrafoNoti7 = () => cy.get('div[data-id="bae628c"] p')
+    obtenerVermasNoti7 = () => cy.get('div[data-id="28a51c4"] a')
+    
+    obtenerTituloMiniCumpl8 = () => cy.get('div[data-id="380d955"] h6')
+    obtenerTituloNoti8 = () => cy.get('div[data-id="4d64662"] h2')
+    obtenerParrafoNoti8 = () => cy.get('div[data-id="a3a64da"] p')
+    obtenerVermasNoti8 = () => cy.get('div[data-id="c135645"] a')
+    
+    obtenerTituloMiniVan9 = () => cy.get('div[data-id="5467244"] h6')
+    obtenerTituloNoti9 = () => cy.get('div[data-id="b72db11"] h2')
+    obtenerParrafoNoti9 = () => cy.get('div[data-id="a508688"] p')
+    obtenerVermasNoti9 = () => cy.get('div[data-id="c76d4fa"] a')
+    
+    obtenerTituloMiniCumpl10 = () => cy.get('div[data-id="fefe97f"] h6')
+    obtenerTituloNoti10 = () => cy.get('div[data-id="aa6e383"] h2')
+    obtenerParrafoNoti10 = () => cy.get('div[data-id="da5a8b1"] p')
+    obtenerVermasNoti10 = () => cy.get('div[data-id="650bc42"] a')
+    
+    obtenerTituloMiniCumpl11 = () => cy.get('div[data-id="422c682"] h6')
+    obtenerTituloNoti11 = () => cy.get('div[data-id="71676a3"] h2')
+    obtenerParrafoNoti11 = () => cy.get('div[data-id="809d2d6"] p')
+    obtenerVermasNoti11 = () => cy.get('div[data-id="c2229a6"] a')
+    
+    obtenerTituloMiniCumpl12 = () => cy.get('div[data-id="97a5c3f"] h6')
+    obtenerTituloNoti12 = () => cy.get('div[data-id="43eb8c9"] h2')
+    obtenerParrafoNoti12 = () => cy.get('div[data-id="4dd44f3"] p')
+    obtenerVermasNoti12 = () => cy.get('div[data-id="0e59cc0"] a')
+    
+    obtenerTituloMiniAltr13 = () => cy.get('div[data-id="2344354"] h6')
+    obtenerTituloNoti13 = () => cy.get('div[data-id="26631c3"] h2')
+    obtenerParrafoNoti13 = () => cy.get('div[data-id="df9609b"] p')
+    obtenerVermasNoti13= () => cy.get('div[data-id="5842494"] a')
+    
+    obtenerTituloMiniAltr14 = () => cy.get('div[data-id="3903b43"] h6')
+    obtenerTituloNoti14 = () => cy.get('div[data-id="d16926d"] h2')
+    obtenerParrafoNoti14 = () => cy.get('div[data-id="51cf837"] p')
+    obtenerVermasNoti14 = () => cy.get('div[data-id="542a03a"] a')
+    
+    obtenerTituloMiniEntu15 = () => cy.get('div[data-id="322c913"] h6')
+    obtenerTituloNoti15 = () => cy.get('div[data-id="7d9bac6"] h2')
+    obtenerParrafoNoti15 = () => cy.get('div[data-id="ee74174"] p')
+    obtenerVermasNoti15 = () => cy.get('div[data-id="f16f72c"] a')
+    
+    obtenerTituloMiniCumpl16 = () => cy.get('div[data-id="b962f59"] h6')
+    obtenerTituloNoti16 = () => cy.get('div[data-id="21188b5"] h2')
+    obtenerParrafoNoti16 = () => cy.get('div[data-id="910d561"] p')
+    obtenerVermasNoti16 = () => cy.get('div[data-id="82a2aa6"] a')
+
+    obtenerTituloMiniCumpl17 = () => cy.get('div[data-id="6610c7b"] h6')
+    obtenerTituloNoti17 = () => cy.get('div[data-id="229d451"] h2')
+    obtenerParrafoNoti17 = () => cy.get('div[data-id="867a898"] p')
+    obtenerVermasNoti17 = () => cy.get('div[data-id="3d1f1b3"] a')
+    
+    obtenerTituloMiniAltr18 = () => cy.get('div[data-id="5c6236d"] h6')
+    obtenerTituloNoti18 = () => cy.get('div[data-id="eb6d996"] h2')
+    obtenerParrafoNoti18 = () => cy.get('div[data-id="ab3f083"] p')
+    obtenerVermasNoti18 = () => cy.get('div[data-id="00ac92a"] a')
+    
+    obtenerTituloMiniEspi19 = () => cy.get('div[data-id="7291678"] h6')
+    obtenerTituloNoti19 = () => cy.get('div[data-id="b795316"] h2')
+    obtenerParrafoNoti19 = () => cy.get('div[data-id="1ac03fb"] p')
+    obtenerVermasNoti19 = () => cy.get('div[data-id="9f88686"] a')
+
+    obtenerTituloMiniCumpl20 = () => cy.get('div[data-id="b6064f9"] h6')
+    obtenerTituloNoti20 = () => cy.get('div[data-id="bc194d9"] h2')
+    obtenerParrafoNoti20 = () => cy.get('div[data-id="7d342ae"] p')
+    obtenerVermasNoti20 = () => cy.get('div[data-id="37b005e"] a')
+
+
+    ///Fechas Especiales
+    obtenerBotonFechaEspe = () => cy.get('li[id="NOVED"]')
+    obtenerTituloPrinFechaEspe = () => cy.get('div[data-id="3fefe1f1"] h2') 
+
+    obtenerTituloMiniEntuFecha1 = () => cy.get('div[data-id="6f944efb"] h6')
+    obtenerTituloFecha1 = () => cy.get('div[data-id="57c385eb"] h2')
+    obtenerParrafoFecha1 = () => cy.get('div[data-id="367094c2"] [class="elementor-widget-container"]')
+    obtenerVermasFecha1 = () => cy.get('div[data-id="a368374"] a')
+    
+    obtenerTituloMiniEntuFecha2 = () => cy.get('div[data-id="7ee60eb"] h6')
+    obtenerTituloFecha2 = () => cy.get('div[data-id="35ddd35"] h2')
+    obtenerParrafoFecha2 = () => cy.get('div[data-id="a965e20"] [class="elementor-widget-container"]')
+    obtenerVermasFecha2 = () => cy.get('div[data-id="82e3589"] a')
+    
+    obtenerTituloMiniEntuFecha3 = () => cy.get('div[data-id="6d212d1"] h6')
+    obtenerTituloFecha3 = () => cy.get('div[data-id="3f5a77b9"] h2')
+    obtenerParrafoFecha3 = () => cy.get('div[data-id="7295a01d"]')
+    obtenerVermasFecha3 = () => cy.get('div[data-id="7c100ea3"] a')
+
+    
+    ///Herramientas
+    obtenerBotonHerra = () => cy.get('li[id="NOVED"]')
+    obtenerTituloPrinHerra = () => cy.get('div[data-id="a814b00"] h2') 
+
+    
+    ///Reconocimientos
+    obtenerBotonRecono = () => cy.get('li[id="NOVED"]')
+    obtenerTituloPrinRecono = () => cy.get('div[data-id="a814b00"] h2') 
+    obtenerTituloPrinCumplea = () => cy.get('div[data-id="3e75d3f"] h2') 
+    obtenerImgDici1 = () => cy.get('div[data-id="db0c4e6"] img')
+    obtenerImgDici2 = () => cy.get('div[data-id="752cd01"] img')
+    obtenerImgDici3 = () => cy.get('div[data-id="bdd54e8"] img')
 }
 module.exports = {
     Home: new Home(),
