@@ -11,6 +11,7 @@ class url {
     urlIncaOrigComu= () => cy.visit('https://newsletter.nutrabiotics.com.co/incapacidad-de-origen-comun/')
     urlCitaMediProgra= () => cy.visit('https://newsletter.nutrabiotics.com.co/citas-medicas-programadas/')
     urlbienestar = () =>  cy.visit('https://newsletter.nutrabiotics.com.co/bienestar/')
+    urlbuzon = () =>  cy.visit('https://newsletter.nutrabiotics.com.co/buzon/')
 }
 
 module.exports = new url();

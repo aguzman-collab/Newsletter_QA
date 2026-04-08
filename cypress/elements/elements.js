@@ -452,6 +452,15 @@ class Bienestar{
     obtenerImgDici2 = () => cy.get('div[data-id="752cd01"] img')
     obtenerImgDici3 = () => cy.get('div[data-id="bdd54e8"] img')
 }
+
+class Buzon{
+    obtenerTituloPrinBuzon = () => cy.get('div[data-id="4baa974"] h2') 
+    obtenerParrafoBuzon = () => cy.get('div[data-id="ecd0891"]')
+    obtenerTituloBuz2 = () => cy.get('div[data-id="ecd0891"] h5')
+    obtenerTituloBuz3 = () => cy.get('div[data-id="1ce9dab"] h2[class="elementor-heading-title elementor-size-default"]')
+    obtenerImgBuzon = () => cy.get('div[data-id="bb65cd9"] img')
+}
+
 module.exports = {
     Home: new Home(),
     Header: new Header(),
@@ -461,4 +470,5 @@ module.exports = {
     FooterMovil: new FooterMovil(), 
     Novedades: new Novedades(), 
     Bienestar: new Bienestar(),
+    Buzon: new Buzon(), 
 };

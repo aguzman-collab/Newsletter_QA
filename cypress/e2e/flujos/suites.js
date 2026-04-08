@@ -6,6 +6,7 @@ import {headerMobileSuites} from "./headermobile";
 import {footerMobileSuites} from "./footermobile";
 import {novedadesSuites} from "./novedades";
 import {bienestarSuites} from "./bienestar"; 
+import { buzonSuites } from "./buzon";
 
 
 const flujitos = {
@@ -16,7 +17,8 @@ const flujitos = {
     headerMobileSuites,
     footerMobileSuites,
     novedadesSuites,
-    bienestarSuites
+    bienestarSuites,
+    buzonSuites
 }
 
 export default flujitos;
