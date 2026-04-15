@@ -7,7 +7,8 @@ import {footerMobileSuites} from "./footermobile";
 import {novedadesSuites} from "./novedades";
 import {bienestarSuites} from "./bienestar"; 
 import { buzonSuites } from "./buzon";
-
+import { noticiasSSTSuites } from "./noticiasSST";
+import {noticiaBieneSuites} from "./noticiaBiene";
 
 const flujitos = {
     headerSuites,
@@ -18,7 +19,9 @@ const flujitos = {
     footerMobileSuites,
     novedadesSuites,
     bienestarSuites,
-    buzonSuites
+    buzonSuites,
+    noticiasSSTSuites,
+    noticiaBieneSuites
 }
 
 export default flujitos;

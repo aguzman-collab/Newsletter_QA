@@ -325,12 +325,7 @@ class tribuNewsActions{
         cy.url('https://co.computrabajo.com/empresas/ofertas-de-trabajo-de-nutrabiotics-61D6DBABFF02EC54')
     }
 
-    ValidarTextoInter(){
-        cy.fixture("tribuExam").then((data) => {
-        Tribu.obtenerTextoInter().invoke('text').then(text => 
-                {expect(normalice(text)).to.contain(normalice(data.tributitulo2Conv))})
-        })
-    }
+     
 
     validarImgaInter  = () => {
         Tribu.obtenerImgInter ()

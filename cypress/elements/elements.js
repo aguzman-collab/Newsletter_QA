@@ -461,6 +461,317 @@ class Buzon{
     obtenerImgBuzon = () => cy.get('div[data-id="bb65cd9"] img')
 }
 
+class noticiasSST{
+    obtenerBotonSST = () => cy.contains('SST')
+
+    ///Noticia 1
+    obtenerBotonVermasSST1 = () => cy.get('div[data-id="7907ac67"] a')
+    obtenerTituloNotici1_1 = () => cy.get('div[class="content_wrap"] h1') 
+    obtenerBotonVolverNotici1_1 = () => cy.get('div[data-id="8437c04"] a')
+    obtenerParrafoNotici1_1 = () => cy.get('div[data-id="2ac2093"] h6')
+    obtenerTituloNotici1_2 = () => cy.get('div[data-id="f19dc37"] h2')  
+    obtenerTituloNotici1_3 = () => cy.get('div[data-id="4e25338"] h3') 
+    obtenerImgNotici1_1 = () => cy.get('div[data-id="71df1f3"] img')
+    obtenerTituloNotici1_4 = () => cy.get('div[data-id="0637e00"] h3')
+    obtenerImgNotici1_2 = () => cy.get('div[data-id="51c15ad"] img')
+    obtenerTituloNotici1_5 = () => cy.get('div[data-id="3a6f3e5"] h2')
+    obtenerTituloNotici1_6 = () => cy.get('div[data-id="6aa899f"] h3')
+    obtenerImgNotici1_3 = () => cy.get('div[data-id="6522694"] img')
+    obtenerTituloNotici1_7 = () => cy.get('div[data-id="cfc70ba"] h3')
+    obtenerImgNotici1_4 = () => cy.get('div[data-id="4876498"] img')
+    obtenerParrafoNotici1_2 = () => cy.get('div[data-id="1d1a71e"] h6')
+    obtenerParrafoNotici1_3 = () => cy.get('div[data-id="6cad976"] h3')
+
+    ///Noticia 2
+    obtenerBotonVermasSST2 = () => cy.get('div[data-id="bff0007"] a')
+    obtenerTituloNotici2_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolverNotici2_1 = () => cy.get('div[data-id="143b2cf"] a  ')
+    obtenerParrafoNotici2_1 = () => cy.get('div[data-id="22e331b"] h6')
+    obtenerTituloNotici2_2= () => cy.get('div[data-id="29aa344"] h3') 
+    obtenerTituloNotici2_3= () => cy.get('div[data-id="f7e01c0"] h5') 
+    obtenerBotonIngresaSST2 = () => cy.get('div[data-id="fc27810"] a')
+    obtenerTituloNotici2_4= () => cy.get('div[data-id="28db0e6"]') 
+    obtenerTituloNotici2_5= () => cy.get('div[data-id="9948daa"]') 
+    obtenerTituloNotici2_6= () => cy.get('div[data-id="ccb5eb9"]') 
+    obtenerTituloNotici2_7= () => cy.get('div[data-id="fa8e31d"]') 
+    obtenerTituloNotici2_8= () => cy.get('div[data-id="25ecc9d"]') 
+    obtenerTituloNotici2_9= () => cy.get('div[data-id="5813d5a"]') 
+    obtenerTituloNotici2_10= () => cy.get('div[data-id="12c28fc"]') 
+    obtenerTituloNotici2_11= () => cy.get('div[data-id="48e4e56"]') 
+    obtenerTituloNotici2_12= () => cy.get('div[data-id="0bbb284"]') 
+    obtenerTituloNotici2_13= () => cy.get('div[data-id="2d4b01f"]') 
+    obtenerTituloNotici2_14= () => cy.get('div[data-id="51c44c5"]') 
+    obtenerTituloNotici2_15= () => cy.get('div[data-id="8ab8a96"]') 
+    obtenerTituloNotici2_16= () => cy.get('div[data-id="694fbb4"]')
+
+    ///Noticia 3
+    obtenerBotonVermasSST3 = () => cy.get('div[data-id="d6838cf" ] a')
+    obtenerParrafoNotici3_1 = () => cy.get('div[data-id="fff1287"] [class="elementor-widget-container"]')
+    obtenerTituloNotici3_2= () => cy.get('div[data-id="ee21a09"]')
+
+    ///Noticia 4
+    obtenerBotonVermasSST4 = () => cy.get('div[data-id="473e7bd"] a')
+    obtenerTituloNotici4_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolverNotici4_1 = () => cy.get('div[data-id="b634778"] a')
+    obtenerParrafoNotici4_1= () => cy.get('div[data-id="545b954"]')
+    obtenerTituloNotici4_2 = () => cy.get('div[data-id="235ef68"]')
+    obtenerParrafoNotici4_2 = () => cy.get('div[data-id="17ad5ef"]')
+    obtenerTituloNotici4_3 = () => cy.get('div[data-id="e481d43"]')
+    obtenerParrafoNotici4_3 = () => cy.get('div[data-id="6ce9f5c"]')
+    obtenerTituloNotici4_4 = () => cy.get('div[data-id="187129b"]')
+    obtenerParrafoNotici4_4 = () => cy.get('div[data-id="e3933ae"]')
+    obtenerTituloNotici4_5 = () => cy.get('div[data-id="4bb77aa"]')
+    obtenerTituloNotici4_6 = () => cy.get('div[data-id="44bdc1f"]')
+
+    ///Noticia 5
+    obtenerBotonVermasSST5 = () => cy.get('div[data-id="5f67ff9"] a')
+    obtenerTituloNotici5_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerBotonVolverNotici5_1 = () => cy.get('div[data-id="2b4fbdd"] a')
+    obtenerParrafosNotici5_1 = () => cy.get('div[data-id="d938fb5"] p')
+    obtenerTituloNotici5_2 = () => cy.get('div[data-id="d938fb5"] h5')
+    obtenerVideoNotici5 = () => cy.get('iframe[src*="youtube"]'); 
+}
+
+class noticiaBiene{
+
+    ///Noticia 1
+    ///obtenerBotonSST = () => cy.contains('SST')
+    obtenerBotonVermasParcha1 = () => cy.get('div[data-id="0d1e285"] a')
+    obtenerTituloParcha1_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafosParcha1_1 = () => cy.get('div[data-id="dd6f100"] p')
+    obtenerParrafosParcha1_2 = () => cy.get('div[data-id="5b0df64"] p')
+
+    ///Noticia 2 
+    obtenerBotonVermasParcha2 = () => cy.get('div[data-id="f752c60"] a')
+    obtenerTituloParcha2_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafosParcha2_1 = () => cy.get('div[data-id="5b0df64"] p')
+    obtenerTituloParcha2_2 = () => cy.get('div[data-id="a738c35"] h3')
+    
+    ///Noticia 3 
+    obtenerBotonVermasParcha3 = () => cy.get('div[data-id="121979f"] a')
+    obtenerTituloParcha3_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafosParcha3_1 = () => cy.get('div[data-id="8534c8a"] p')
+    obtenerTituloParcha3_2 = () => cy.get('div[data-id="8534c8a"] h3')
+
+    ///Noticia 4
+    obtenerBotonVermasParcha4 = () => cy.get('div[data-id="7907ac67"] a')
+    obtenerTituloParcha4_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafosParcha4_1 = () => cy.get('div[data-id="e8ffb25"] p')
+    obtenerTituloParcha4_2 = () => cy.get('div[data-id="e8ffb25"] h3')
+    obtenerTituloParcha4_3 = () => cy.get('div[data-id="e8ffb25"] h2')
+    
+    ///Noticia 5
+    obtenerBotonVermasParcha5 = () => cy.get('div[data-id="b64f684"] a')
+    obtenerTituloParcha5_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafosParcha5_1 = () => cy.get('div[data-id="8534c8a"] p ')
+    obtenerTituloParcha5_2 = () => cy.get('div[data-id="8534c8a"] h3 ')
+    
+    ///Noticia 6
+    obtenerBotonVermasParcha6 = () => cy.get('div[data-id="ce2fdbe"] a')
+    obtenerTituloParcha6_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafosParcha6_1 = () => cy.get('div[data-id="7601080"] p')
+    obtenerParrafoParcha6_2 = () => cy.get('div[data-id="13318ff"] p')
+
+    ///Noticia 7
+    obtenerBotonVermasParcha7 = () => cy.get('div[data-id="ae5a8a2"] a')
+    obtenerTituloParcha7_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafosParcha7_1 = () => cy.get('div[data-id="7601080"] p')
+    obtenerParrafoParcha7_2 = () => cy.get('div[data-id="13318ff"] p')
+
+    ///Noticia 8 PARCHANDO 
+    obtenerBotonVermasParcha8 = () => cy.get('div[data-id="6354e69"] a')
+    obtenerTituloParcha8_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerTituloParcha8_2 = () => cy.get('div[data-id="cd3f40b"] h3')
+    obtenerTituloParcha8_3 = () => cy.get('div[data-id="b23742c"] h4')
+    obtenerParrafoParcha8_1 = () => cy.get('div[data-id="c58703d"] p ')
+    obtenerParrafoParcha8_2 = () => cy.get('div[data-id="7312dda"] p')
+    obtenerParrafoParcha8_3 = () => cy.get('div[data-id="730b16e"] p ')
+    obtenerTituloParcha8_4 = () => cy.get('div[data-id="600d65f"] h4')
+    obtenerParrafoParcha8_4 = () => cy.get('div[data-id="c87b5d9"] p')
+    obtenerParrafoParcha8_5 = () => cy.get('div[data-id="2ce64ed"] p')
+    obtenerParrafoParcha8_6 = () => cy.get('div[data-id="2ce64ed"] ul li')
+    obtenerParrafoParcha8_7 = () => cy.get('div[data-id="9d426a7"] p ')
+    obtenerImgComida1 = () => cy.get('div[data-id="0163110"] img')
+    obtenerParrafoParcha8_8 = () => cy.get('div[data-id="b9e3cbd"] p')
+    obtenerImgLugares1 = () => cy.get('div[data-id="3a95eda"] img')
+    obtenerParrafoParcha8_9 = () => cy.get('div[data-id="607eb88"] p ')
+    obtenerBotonInmuTocanci = () => cy.get('div[data-id="3d205e8"] a ')
+    obtenerBotonInmuZipaqui = () => cy.get('div[data-id="95d5d5e"] a')
+
+    ///LA TRIBU AYUDA 
+    obtenerBotonTriAyu = () => cy.get('li[id="la-tribu-ayuda"]')
+    obtenerBotonVermasTriAyu1 = () => cy.get('div[data-id="833f613"] a ')
+    obtenerTituloTriAyu1_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerTituloTriAyu1_2 = () => cy.get('div[data-id="4c1244e"] p')
+    obtenerParrafoTriAyu1_1 = () => cy.get('div[data-id="e84a8cc"] p')
+    obtenerParrafoTriAyu1_2 = () => cy.get('div[data-id="5e85311"] p')
+    obtenerTituloTriAyu1_3 = () => cy.get('div[data-id="2f51372"] p ')
+    obtenerParrafoTriAyu1_3 = () => cy.get('div[data-id="e3caf38"] p')
+    obtenerTituloTriAyu1_4 = () => cy.get('div[data-id="8f6a7df"] p ')
+    obtenerParrafoTriAyu1_4 = () => cy.get('div[data-id="2d91f43"] p ')
+    obtenerTituloTriAyu1_5 = () => cy.get('div[data-id="8470c2f"] h2')
+    obtenerParrafoTriAyu1_5 = () => cy.get('div[data-id="d86e3fe"] p')
+    obtenerParrafoTriAyu1_6 = () => cy.get('div[data-id="c872f21"] p')
+    obtenerParrafoTriAyu1_7 = () => cy.get('div[data-id="9e722ed"] p')
+    obtenerTituloTriAyu1_7 = () => cy.get('div[data-id="ea0c765"] p')
+    obtenerParrafoTriAyu1_8 = () => cy.get('div[data-id="467a931"] p')
+    obtenerParrafoTriAyu1_9 = () => cy.get('div[data-id="76c7ca5"] p')
+    obtenerParrafoTriAyu1_10 = () => cy.get('div[data-id="546346c"] p')
+    obtenerParrafoTriAyu1_11 = () => cy.get('div[data-id="f40c5e5"] p')
+    obtenerParrafoTriAyu1_12 = () => cy.get('div[data-id="f846b5e"] p ')
+    obtenerParrafoTriAyu1_13 = () => cy.get('div[data-id="d834b79"] p')
+    obtenerParrafoTriAyu1_14 = () => cy.get('div[data-id="1ad1e69"] p')
+    obtenerParrafoTriAyu1_15 = () => cy.get('div[data-id="82c7ab0"] p')
+    obtenerParrafoTriAyu1_16 = () => cy.get('div[data-id="e4e81c7"]  ')
+    obtenerParrafoTriAyu1_17 = () => cy.get('div[data-id="0bb5f9b"]  p')
+    obtenerParrafoTriAyu1_18 = () => cy.get('div[data-id="03dcc11"] p')
+    obtenerParrafoTriAyu1_19 = () => cy.get('div[data-id="0bc5c08"] ')
+    obtenerParrafoTriAyu1_20 = () => cy.get('div[data-id="6e8f2b7"] p')
+    obtenerParrafoTriAyu1_21 = () => cy.get('div[data-id="0dcec61"]')
+    obtenerParrafoTriAyu1_22 = () => cy.get('div[data-id="1371ccd"] p')
+    obtenerParrafoTriAyu1_23 = () => cy.get('div[data-id="75c01c9"] p')
+    obtenerParrafoTriAyu1_24 = () => cy.get('div[data-id="fea5f03"]')
+    obtenerParrafoTriAyu1_25 = () => cy.get('div[data-id="f746548"] p')
+    obtenerParrafoTriAyu1_26 = () => cy.get('div[data-id="29350f8"] p')
+    obtenerParrafoTriAyu1_27 = () => cy.get('div[data-id="6c54be5"]')
+    obtenerParrafoTriAyu1_28 = () => cy.get('div[data-id="270d816"] p')
+    obtenerParrafoTriAyu1_29 = () => cy.get('div[data-id="1b0681f"] p')
+    obtenerParrafoTriAyu1_30 = () => cy.get('div[data-id="695e21b"]')
+    obtenerParrafoTriAyu1_31 = () => cy.get('div[data-id="37ee594"] p')
+    obtenerParrafoTriAyu1_32 = () => cy.get('div[data-id="d3de8e7"] p')
+    obtenerParrafoTriAyu1_33 = () => cy.get('div[data-id="b45d950"]')
+    obtenerParrafoTriAyu1_34 = () => cy.get('div[data-id="d96b269"] p')
+    obtenerParrafoTriAyu1_35 = () => cy.get('div[data-id="5129156"] p')
+    obtenerParrafoTriAyu1_36 = () => cy.get('div[data-id="450d4f9"]')
+    obtenerParrafoTriAyu1_37 = () => cy.get('div[data-id="5fe4e02"] p')
+    obtenerParrafoTriAyu1_38 = () => cy.get('div[data-id="41282e1"] p')
+    obtenerParrafoTriAyu1_39 = () => cy.get('div[data-id="77cf93e"]')
+    obtenerParrafoTriAyu1_40 = () => cy.get('div[data-id="f47fb77"] p')
+    obtenerParrafoTriAyu1_41 = () => cy.get('div[data-id="afaf805"] p')
+    obtenerParrafoTriAyu1_42 = () => cy.get('div[data-id="d381fc4"]')
+    obtenerParrafoTriAyu1_43 = () => cy.get('div[data-id="a1a5a07"] p')
+    
+    ///Noticia 2
+    obtenerBotonVermasTriAyu2 = () => cy.get('div[data-id="25027fa"] a ')
+    obtenerTituloTriAyu2_1 = () => cy.get('div[class="content_wrap"] h1') 
+    obtenerParrafoTriAyu2_1 = () => cy.get('div[data-id="4c1244e"]')
+    obtenerParrafoTriAyu2_2 = () => cy.get('div[data-id="2bcd53c"] p')
+    obtenerParrafoTriAyu2_3 = () => cy.get('div[data-id="ffc0d71"] p')
+    obtenerParrafoTriAyu2_4 = () => cy.get('div[data-id="993eb93"] p')
+    obtenerParrafoTriAyu2_5 = () => cy.get('div[data-id="8e610f3"]')
+    obtenerParrafoTriAyu2_6 = () => cy.get('div[data-id="013ba22"]')
+    obtenerParrafoTriAyu2_7 = () => cy.get('div[data-id="f788c5e"]')
+    obtenerParrafoTriAyu2_8 = () => cy.get('div[data-id="77a9463"]')
+    obtenerParrafoTriAyu2_9 = () => cy.get('div[data-id="d18c05d"]')
+    obtenerParrafoTriAyu2_10 = () => cy.get('div[data-id="f227066"]')
+    obtenerTituloTriAyu2_2 = () => cy.get('div[data-id="48907ff"] p')
+    obtenerParrafoTriAyu2_11 = () => cy.get('div[data-id="7b29671"] p')
+    obtenerParrafoTriAyu2_12 = () => cy.get('div[data-id="0ffceb1"] p')
+    obtenerParrafoTriAyu2_13 = () => cy.get('div[data-id="4242673"] p')
+    obtenerTituloTriAyu2_3 = () => cy.get('div[data-id="7207bda"] p')
+    obtenerParrafoTriAyu2_14 = () => cy.get('div[data-id="9962aef"] p') 
+    obtenerParrafoTriAyu2_15 = () => cy.get('div[data-id="6b2a2c5"] p') 
+    obtenerTituloTriAyu2_4 = () => cy.get('div[data-id="0a52080"] p')
+    obtenerImgAgradeci1 = () => cy.get('div[data-id="3025069"] img') 
+    obtenerParrafoTriAyu2_16 = () => cy.get('div[data-id="c96b5b7"] p')
+
+
+    ///Noticia 3
+    obtenerBotonVermasTriAyu3 = () => cy.get('div[data-id="65c21c69"] a')
+    obtenerTituloTriAyu3_1 = () => cy.get('div[class="content_wrap"] h1') 
+    obtenerParrafoTriAyu3_1 = () => cy.get('div[data-id="da7de72"] p')
+
+
+    ///Noticia 4
+    obtenerBotonVermasTriAyu4 = () => cy.get('div[data-id="5a7118b"] a')
+    obtenerTituloTriAyu4_1 = () => cy.get('div[class="content_wrap"] h1') 
+    obtenerParrafoTriAyu4_1 = () => cy.get('[id="post-28904"] p')
+    obtenerTitulosTriAyu4_2 = () => cy.get('[id="post-28904"] h5')
+    obtenerTituloTriAyu4_3 = () => cy.get('div[data-id="728340c"] h3')
+    obtenerParrafoTriAyu4_2 = () => cy.get('ol li')
+
+
+    ///Noticias 5 
+    obtenerBotonVermasTriAyu5 = () => cy.get('div[data-id="6c3b5e2"] a')
+    obtenerTituloTriAyu5_1 = () => cy.get('div[class="content_wrap"] h1') 
+    obtenerParrafoTriAyu5_1 = () => cy.get('div[data-id="6b63d9c"] p')
+    obtenerTituloTriAyu5_2 = () => cy.get('div[data-id="6b63d9c"] h5')
+
+
+    ///Noticias 6 
+    obtenerBotonVermasTriAyu6 = () => cy.get('div[data-id="9768164"] a')
+    obtenerTituloTriAyu6_1 = () => cy.get('div[class="content_wrap"] h1') 
+    obtenerParrafoTriAyu6_1 = () => cy.get('div[data-id="890f2b6"] p')
+    obtenerTituloTriAyu6_2 = () => cy.get('div[data-id="e9a9290"] h5')
+    obtenerTituloTriAyu6_3 = () => cy.get('div[data-id="657cd23"] h5')
+    obtenerTituloTriAyu6_4 = () => cy.get('div[data-id="6113185"] h5')
+    obtenerTitulosTriAyu6_5 = () => cy.get('div[data-id="194e1e7"] h5 ')
+    obtenerTituloTriAyu6_6 = () => cy.get('div[data-id="8d234b8"] h5')
+    obtenerParrafoTriAyu6_2 = () => cy.get('div[data-id="4aabb17"]')
+    obtenerParrafoTriAyu6_3 = () => cy.get('div[data-id="194e1e7"] p')
+    obtenerParrafoTriAyu6_4 = () => cy.get('div[data-id="8d234b8"] p')  
+
+
+
+    ///Noticias 7 
+    obtenerBotonVermasTriAyu7 = () => cy.get('div[data-id="2505a6d"] a')
+    obtenerTituloTriAyu7_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerTituloTriAyu7_2 = () => cy.get('div[data-id="e84366d"] h2')
+    obtenerParrafoTriAyu7_1 = () => cy.get('div[data-id="96fb7db"] p')
+    obtenerTituloTriAyu7_3 = () => cy.get('div[data-id="96fb7db"] h6')
+    obtenerTituloTriAyu7_4 = () => cy.get('div[data-id="96fb7db"] h4')
+
+
+
+    ///Noticias 8 
+    obtenerBotonVermasTriAyu8 = () => cy.get('div[data-id="bfeab57"] a')
+    obtenerTituloTriAyu8_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafoTriAyu8_1 = () => cy.get('div[data-id="2bea31c"] p')  
+    
+    
+    ///Noticias 9
+    obtenerBotonVermasTriAyu9 = () => cy.get('div[data-id="d579d99"] a')
+    obtenerTituloTriAyu9_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerParrafoTriAyu9_1 = () => cy.get('div[data-id="2bea31c"] p')  
+
+
+    ///NOTICIAS
+    ///Noticia 1
+    obtenerBotonNotici = () => cy.get('[id="SST"]')
+    obtenerBotonVermasNotici1 = () => cy.get('div[data-id="cd646c3"] a')
+    obtenerTituloNotici1_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerTituloNotici1_2 = () => cy.get('div[data-id="34bbdd7"]')
+    obtenerParrafoNotici1_1 = () => cy.get('div[data-id="be8f76a"]')
+    obtenerTituloNotici1_3 = () => cy.get('div[data-id="ec6eee4"] p')
+    obtenerParrafoNotici1_2 = () => cy.get('div[data-id="ec6eee4"] ul')
+    obtenerParrafoNotici1_3 = () => cy.get('[data-id="3f701b9"]')
+    obtenerParrafoNotici1_4 = () => cy.get('div[data-id="a346520"] p')
+
+
+    ///Noticia 2 
+    obtenerBotonVermasNotici2 = () => cy.get('div[data-id="fdb3e82"] a')
+    obtenerTituloNotici2_1 = () => cy.get('div[class="content_wrap"] h1')
+    obtenerTituloNotici2_2 = () => cy.get('div[data-id="3c5e048"] h2')
+    obtenerParrafoNotici2_1 = () => cy.get('div[data-id="be8f76a"] p')
+    obtenerParrafoNotici2_2 = () => cy.get('div[data-id="9b07e96"] p ')
+    obtenerTituloNotici2_3 = () => cy.get('div[data-id="9e3c655"] h2')
+    obtenerParrafoNotici2_3 = () => cy.get('div[data-id="939d91c"] p')
+    obtenerTituloNotici2_4 = () => cy.get('div[data-id="ecb8329"] h2')
+    obtenerParrafoNotici2_4 = () => cy.get('div[data-id="51883b7"] p')
+    obtenerParrafoNotici2_5 = () => cy.get('div[data-id="8f9058f"] p')
+    obtenerTituloNotici2_5 = () => cy.get('div[data-id="9b1470a"] h2')
+    obtenerParrafoNotici2_6 = () => cy.get('div[data-id="f258f4f"] p')
+    obtenerParrafoNotici2_7 = () => cy.get('div[data-id="a101200"]')
+    obtenerParrafoNotici2_8 = () => cy.get('div[data-id="18d0518"]')
+    obtenerParrafoNotici2_9 = () => cy.get('div[data-id="0c3bb4c"] p')
+    obtenerTituloNotici2_6 = () => cy.get('div[data-id="9c6bf09"] h2')
+    obtenerParrafoNotici2_10 = () => cy.get('div[data-id="4300240"] p')
+    obtenerTituloNotici2_7 = () => cy.get('div[data-id="93e47b2"] h2')
+    obtenerParrafoNotici2_11 = () => cy.get('div[data-id="7204c25"] p')
+    obtenerTituloNotici2_8 = () => cy.get('div[data-id="a64d420"] h2')
+    obtenerParrafoNotici2_12 = () => cy.get('div[data-id="754db42"] p')
+}
+
 module.exports = {
     Home: new Home(),
     Header: new Header(),
@@ -471,4 +782,6 @@ module.exports = {
     Novedades: new Novedades(), 
     Bienestar: new Bienestar(),
     Buzon: new Buzon(), 
+    noticiasSST: new noticiasSST(),
+    noticiaBiene: new noticiaBiene(), 
 };
