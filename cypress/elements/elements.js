@@ -771,7 +771,7 @@ class noticiaBiene{
     obtenerTituloNotici2_8 = () => cy.get('div[data-id="a64d420"] h2')
     obtenerParrafoNotici2_12 = () => cy.get('div[data-id="754db42"] p')
 }
-
+// PRUEBAAAS
 module.exports = {
     Home: new Home(),
     Header: new Header(),
