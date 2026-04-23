@@ -6,6 +6,10 @@ import {headerMobileSuites} from "./headermobile"
 import {footerMobileSuites} from "./footermobile"
 import {novedadesSuites} from "./novedades"
 import {bienestarSuites} from "./bienestar"
+import { buzonSuites } from "./buzon";
+import { noticiasSSTSuites } from "./noticiasSST";
+import {noticiaBieneSuites} from "./noticiaBiene";
+
 
 
 headerSuites(),
@@ -15,4 +19,7 @@ tribuSuites(),
 headerMobileSuites(),
 footerMobileSuites(),
 novedadesSuites(), 
-bienestarSuites()
+bienestarSuites(),
+buzonSuites(),
+noticiasSSTSuites(),
+noticiaBieneSuites()

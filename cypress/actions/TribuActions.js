@@ -32,6 +32,32 @@ class tribuNewsActions{
         })
     }
 
+    ValidarTextoMarzo(){
+        cy.fixture("tribuExam").then((data) => {
+        Tribu.obtenerTextoMarzo().should('have.text', data.tributitulo3_1) 
+        })
+    }
+
+    validarImgMarz = () => {
+        Tribu.obtenerImgMarz()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
+    ValidarTextoFebrero(){
+        cy.fixture("tribuExam").then((data) => {
+        Tribu.obtenerTextoFebre().should('have.text', data.tributitulo3_2) 
+        })
+    }
+
+    validarImgFebre = () => {
+        Tribu.obtenerImgFebre()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
     ValidarTextoEnero(){
         cy.fixture("tribuExam").then((data) => {
         Tribu.obtenerTextoEnero().should('have.text', data.tributitulo3) 
@@ -147,6 +173,20 @@ class tribuNewsActions{
                 {expect(normalice(text)).to.contain(normalice(data.tributitulo1Re))})
         })
     }
+
+    ValidarTextoFebre1Re(){
+        cy.fixture("tribuExam").then((data) => {
+        Tribu.obtenerTextoFebre1Re().should('have.text', data.tributitulo2_0Re) 
+        })
+    }
+    
+    validarImgFebre1Re = () => {
+        Tribu.obtenerImgFebre1Re()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
 
     ValidarTextoEneRe(){
         cy.fixture("tribuExam").then((data) => {
@@ -325,8 +365,13 @@ class tribuNewsActions{
         cy.url('https://co.computrabajo.com/empresas/ofertas-de-trabajo-de-nutrabiotics-61D6DBABFF02EC54')
     }
 
+    ValidarTextoInter(){
+        cy.fixture("tribuExam").then((data) => {
+        Tribu.obtenerTextoInter().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.tributitulo2Conv))})
+        })
+    }
      
-
     validarImgaInter  = () => {
         Tribu.obtenerImgInter ()
         .should('exist')  

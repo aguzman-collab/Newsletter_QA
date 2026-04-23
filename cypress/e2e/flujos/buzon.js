@@ -5,7 +5,7 @@ export function buzonSuites(){
 
     context('Automatizacion - Buzon', () => {
 
-        it.only("Section - Buzon", () =>{
+        it("Section - Buzon", () =>{
         cy.viewport(1200,800)
         url.urlbuzon()
         buzonNewsActions.ValidarTituloPrinBuzon(); 

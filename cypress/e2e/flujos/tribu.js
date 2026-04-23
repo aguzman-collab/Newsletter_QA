@@ -14,6 +14,10 @@ export function tribuSuites(){
         tribuNewsActions.validarParrafoTri(); 
         ///Ingresos 
         tribuNewsActions.ValidarTextoIngresos();
+        tribuNewsActions.ValidarTextoMarzo();
+        tribuNewsActions.validarImgMarz();
+        tribuNewsActions.ValidarTextoFebrero();
+        tribuNewsActions.validarImgFebre();
         tribuNewsActions.ValidarTextoEnero();
         tribuNewsActions.validarImgEne(); 
         tribuNewsActions.ValidarTextoNoviem(); 
@@ -33,6 +37,8 @@ export function tribuSuites(){
         ///Retiros
         tribuNewsActions.clickBotonRetiros(); 
         tribuNewsActions.ValidarTextoRetiros(); 
+        tribuNewsActions.ValidarTextoFebre1Re();
+        tribuNewsActions.validarImgFebre1Re(); 
         tribuNewsActions.ValidarTextoEneRe(); 
         tribuNewsActions.validarImgEneRe(); 
         tribuNewsActions.ValidarTextoNoviRe(); 
