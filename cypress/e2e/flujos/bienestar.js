@@ -236,13 +236,6 @@ export function bienestarSuites(){
         bienestarNewsActions.clickBotonVermasFecha3(); 
         }); 
         
-        it("Section - Herramientas", () =>{
-        cy.viewport(1200,800)
-        url.urlbienestar()
-        bienestarNewsActions.clickBotonHerra();
-        bienestarNewsActions.ValidarTituloPrinHerra();
-        }); 
-
 
         it("Section - Reconocimientos", () =>{
         cy.viewport(1200,800)

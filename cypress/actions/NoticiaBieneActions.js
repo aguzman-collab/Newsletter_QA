@@ -1225,5 +1225,2295 @@ class noticiaBieneNewsActions{
                 {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici1_4))})
         })
     }
+
+    ///NOTICIA 2
+    
+    clickBotonVermasNotici2(){
+        noticiaBiene.obtenerBotonVermasNotici2()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici2_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_1))})
+        })
+    }
+
+    ValidarTituloNotici2_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_2))})
+        })
+    }
+
+    ValidarParrafoNotici2_1() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_1))})
+        })
+    }
+
+    ValidarParrafoNotici2_2() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_2))})
+        })
+    }
+
+    ValidarTituloNotici2_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_3))})
+        })
+    }
+
+    ValidarParrafoNotici2_3() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_3))})
+        })
+    }
+
+    ValidarTituloNotici2_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_4))})
+        })
+    }
+
+    ValidarParrafoNotici2_4() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_4))})
+        })
+    }
+
+    validarParrafoNotici2_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_5().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_5[index]))})
+                }); 
+        });
+    }
+
+    ValidarTituloNotici2_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_5))})
+        })
+    }
+
+    ValidarParrafoNotici2_6() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_6))})
+        })
+    }
+
+    ValidarParrafoNotici2_7() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_7))})
+        })
+    }
+
+    ValidarParrafoNotici2_8() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_8))})
+        })
+    }
+
+    ValidarParrafoNotici2_9() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_9))})
+        })
+    }
+
+    ValidarTituloNotici2_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_6))})
+        })
+    }
+
+    ValidarParrafoNotici2_10() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_10))})
+        })
+    }
+
+    ValidarTituloNotici2_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_7))})
+        })
+    }
+
+    ValidarParrafoNotici2_11() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_11))})
+        })
+    }
+
+    ValidarTituloNotici2_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_8))})
+        })
+    }
+
+    ValidarParrafoNotici2_12() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_12().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_12))})
+        })
+    }
+
+    ValidarTituloNotici2_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici2_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici2_9))})
+        })
+    }
+
+    ValidarParrafoNotici2_13() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_13))})
+        })
+    }
+
+    ValidarParrafoNotici2_14() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+            noticiaBiene.obtenerParrafoNotici2_14().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici2_14))})
+        })
+    }
+
+
+    ///Noticias 3
+    clickBotonVermasNotici3(){
+        noticiaBiene.obtenerBotonVermasNotici3()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici3_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_1))})
+        })
+    }
+
+    ValidarTituloNotici3_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_2))})
+        })
+    }
+
+    ValidarParrafoNotici3_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_1))})
+        })
+    }
+
+    ValidarTituloNotici3_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_3))})
+        })
+    }
+
+    ValidarParrafoNotici3_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_2))})
+        })
+    }
+
+    ValidarTituloNotici3_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_4))})
+        })
+    }
+
+    ValidarParrafoNotici3_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_3))})
+        })
+    }
+
+    ValidarTituloNotici3_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_5))})
+        })
+    }
+
+    ValidarTituloNotici3_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_6))})
+        })
+    }
+
+    ValidarParrafoNotici3_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_4))})
+        })
+    }
+
+    ValidarTituloNotici3_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_7))})
+        })
+    }
+
+    ValidarParrafoNotici3_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_5))})
+        })
+    }
+
+    ValidarTituloNotici3_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_8))})
+        })
+    }
+
+    ValidarParrafoNotici3_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_6))})
+        })
+    }
+
+    ValidarTituloNotici3_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_9))})
+        })
+    }
+
+    ValidarParrafoNotici3_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_7))})
+        })
+    }
+
+    ValidarParrafoNotici3_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_8))})
+        })
+    }
+
+    ValidarTituloNotici3_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_10))})
+        })
+    }
+
+    ValidarParrafoNotici3_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_9))})
+        })
+    }
+
+    ValidarTituloNotici3_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_11))})
+        })
+    }
+
+    ValidarParrafoNotici3_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_10))})
+        })
+    }
+
+    ValidarTituloNotici3_12(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_12().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_12))})
+        })
+    }
+
+    ValidarParrafoNotici3_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_11))})
+        })
+    }
+    
+    ValidarTituloNotici3_13(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_13))})
+        })
+    }
+
+    ValidarTituloNotici3_14(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_14().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_14))})
+        })
+    }
+
+    ValidarTituloNotici3_15(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_15().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_15))})
+        })
+    }
+
+    ValidarParrafoNotici3_12() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici3_12().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_12[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici3_13(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_13))})
+        })
+    }
+    
+    ValidarTituloNotici3_16(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_16().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_16))})
+        })
+    }
+
+    ValidarTituloNotici3_17(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_17().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_17))})
+        })
+    }
+
+    ValidarTituloNotici3_18(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_18().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_18))})
+        })
+    }
+
+    ValidarParrafoNotici3_14(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_14().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_14))})
+        })
+    }
+
+    ValidarParrafoNotici3_15() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici3_15().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_15[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici3_16(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_16().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_16))})
+        })
+    }
+
+    ValidarTituloNotici3_19(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_19().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_19))})
+        })
+    }
+
+    ValidarTituloNotici3_20(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_20().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_20))})
+        })
+    }
+
+    ValidarTituloNotici3_21(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_21().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_21))})
+        })
+    }
+
+    ValidarParrafoNotici3_17(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_17().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_17))})
+        })
+    }
+
+    ValidarParrafoNotici3_18() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici3_18().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_18[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici3_19(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_19().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_19))})
+        })
+    }
+
+    ValidarTituloNotici3_22(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_22().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_22))})
+        })
+    }
+
+    ValidarParrafoNotici3_20(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_20().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_20))})
+        })
+    }
+
+    ValidarTituloNotici3_23(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici3_23().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici3_23))})
+        })
+    }
+
+    ValidarParrafoNotici3_21() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici3_21().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_21[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici3_22(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici3_22().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici3_22))})
+        })
+    }
+
+    ///Noticias 4
+    clickBotonVermasNotici4(){
+        noticiaBiene.obtenerBotonVermasNotici4()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici4_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici4_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici4_1))})
+        })
+    }
+
+    ValidarTituloNotici4_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici4_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici4_2))})
+        })
+    }
+
+    ValidarParrafoNotici4_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici4_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici4_1))})
+        })
+    }
+
+    ValidarParrafoNotici4_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici4_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici4_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici4_3() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici4_3().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici4_3[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici4_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici4_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici4_3))})
+        })
+    }
+
+
+    ///Noticias 5
+    clickBotonVermasNotici5(){
+        noticiaBiene.obtenerBotonVermasNotici5()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici5_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici5_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici5_1))})
+        })
+    }
+
+    ValidarTituloNotici5_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici5_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici5_2))})
+        })
+    }
+
+    ValidarParrafoNotici5_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici5_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici5_1))})
+        })
+    }
+
+    ValidarParrafoNotici5_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici5_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici5_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici5_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici5_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici5_3))})
+        })
+    }
+
+    ValidarParrafoNotici5_4() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici5_4().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici5_4[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici5_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici5_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici5_5))})
+        })
+    }
+
+    ///Noticias 6
+    clickBotonVermasNotici6(){
+        noticiaBiene.obtenerBotonVermasNotici6()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici6_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici6_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici6_1))})
+        })
+    }
+
+    ValidarParrafoNotici6_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici6_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_2))})
+        })
+    }
+
+    ValidarParrafoNotici6_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici6_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_3))})
+        })
+    }
+
+    ValidarParrafoNotici6_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici6_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_4))})
+        })
+    }
+
+    ValidarParrafoNotici6_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici6_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_5))})
+        })
+    }
+
+    ValidarTituloNotici6_2() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici6_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici6_2))})
+        })
+    }
+
+    ValidarParrafoNotici6_6() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici6_6().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_6[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici6_3() {
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici6_3().should('have.text', data.TituloNotici6_3)
+        })
+    }
+
+    ValidarParrafoNotici6_7() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici6_7().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_7[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici6_8() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici6_8().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_8[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici6_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici6_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_9))})
+        })
+    }
+
+    ValidarTituloNotici6_4() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerTituloNotici6_4().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.TituloNotici6_4[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici6_10() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici6_10().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici6_10[index]))}) 
+            });
+        });
+    }
+
+    ///Noticias 7
+    clickBotonVermasNotici7(){
+        noticiaBiene.obtenerBotonVermasNotici7()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici7_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici7_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici7_1))})
+        })
+    }
+
+    ValidarParrafoNotici7_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici7_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici7_1))})
+        })
+    }
+
+    ValidarParrafoNotici7_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici7_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici7_2))})
+        })
+    }
+
+    ValidarParrafoNotici7_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici7_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici7_3))})
+        })
+    }
+
+    ValidarParrafoNotici7_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici7_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici7_4))})
+        })
+    }
+
+
+    ///Noticias 8
+    clickBotonVermasNotici8(){
+        noticiaBiene.obtenerBotonVermasNotici8()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici8_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici8_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici8_1))})
+        })
+    }
+
+    ValidarParrafoNotici8_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici8_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici8_1[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici8_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici8_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici8_2))})
+        })
+    }
+
+    ValidarParrafoNotici8_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici8_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici8_3))})
+        })
+    }
+
+    ValidarParrafoNotici8_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici8_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici8_4))})
+        })
+    }
+
+    ValidarParrafoNotici8_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici8_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici8_5))})
+        })
+    }
+
+    ///Noticias 9
+    clickBotonVermasNotici9(){
+        noticiaBiene.obtenerBotonVermasNotici9()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici9_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici9_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici9_1))})
+        })
+    }
+
+    ValidarParrafoNotici9_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici9_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici9_1))})
+        })
+    }
+
+    ValidarTituloNotici9_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici9_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici9_2))})
+        })
+    }
+
+    ValidarTituloNotici9_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici9_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici9_3))})
+        })
+    }
+
+    ValidarParrafoNotici9_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici9_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici9_2))})
+        })
+    }
+
+    ValidarTituloNotici9_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici9_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici9_4))})
+        })
+    }
+
+    ValidarParrafoNotici9_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici9_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici9_3))})
+        })
+    }
+
+    ValidarParrafoNotici9_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici9_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici9_4))})
+        })
+    }
+
+    ValidarParrafoNotici9_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici9_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici9_5))})
+        })
+    }
+
+    ValidarParrafoNotici9_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici9_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici9_6))})
+        })
+    }
+
+    ValidarParrafoNotici9_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici9_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici9_7))})
+        })
+    }
+
+    ///Noticias 9
+    clickBotonVermasNotici10(){
+        noticiaBiene.obtenerBotonVermasNotici10()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici10_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici10_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici10_1))})
+        })
+    }
+
+    ValidarParrafoNotici10_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici10_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici10_1[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici10_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici10_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici10_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici10_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici10_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici10_2))})
+        })
+    }
+
+
+    ///Noticias 11
+    clickBotonVermasNotici11(){
+        noticiaBiene.obtenerBotonVermasNotici11()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici11_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici11_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici11_1))})
+        })
+    }
+
+    ValidarParrafoNotici11_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici11_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici11_1))})
+        })
+    }
+
+    ValidarTituloNotici11_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici11_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici11_2))})
+        })
+    }
+
+    ValidarParrafoNotici11_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici11_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici11_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici11_3() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici11_3().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici11_3[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici11_4() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici11_4().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici11_4[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici11_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici11_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici11_3))})
+        })
+    }
+
+    ValidarParrafoNotici11_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici11_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici11_5))})
+        })
+    }
+
+    clickBotonAquiNotici11(){
+        noticiaBiene.obtenerBotonAquiNotici11()
+        cy.url('https://emailfrese.my.canva.site/liderazgo-responsable-nutrabiotics-fnl')
+    }
+
+    ///Noticias 12
+    clickBotonVermasNotici12(){
+        noticiaBiene.obtenerBotonVermasNotici12()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici12_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerTituloNotici12_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_1[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici12_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici12_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_1))})
+        })
+    }
+
+    ValidarTituloNotici12_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerTituloNotici12_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici12_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici12_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici12_3() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici12_3().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_3[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici12_3() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerTituloNotici12_3().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_3[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici12_4() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici12_4().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_4[index]))}) 
+            }); 
+        });
+    }
+
+    ValidarParrafoNotici12_5() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici12_5().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_5[index]))}) 
+            }); 
+        });
+    }
+
+    ValidarParrafoNotici12_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici12_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_6))})
+        })
+    }
+
+    ValidarParrafoNotici12_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici12_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_7))})
+        })
+    }
+
+    ValidarParrafoNotici12_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici12_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_8))})
+        })
+    }
+
+    ValidarTituloNotici12_4() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerTituloNotici12_4().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_4[index]))}) 
+            }); 
+        });
+    }
+
+    ValidarParrafoNotici12_9() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici12_9().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_9[index]))}) 
+            }); 
+        });
+    }
+
+    ValidarTituloNotici12_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_5))})
+        })
+    }
+
+    ValidarTituloNotici12_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_6))})
+        })
+    }
+
+    ValidarTituloNotici12_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_7))})
+        })
+    }
+
+    ValidarTituloNotici12_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_8))})
+        })
+    }
+
+    ValidarTituloNotici12_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_9))})
+        })
+    }
+
+    ValidarTituloNotici12_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_10))})
+        })
+    }
+
+    ValidarTituloNotici12_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_11))})
+        })
+    }
+
+    ValidarTituloNotici12_12(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_12().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_12))})
+        })
+    }
+
+    ValidarTituloNotici12_13(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_13))})
+        })
+    }
+
+    ValidarTituloNotici12_14(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_14().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_14))})
+        })
+    }
+
+    ValidarTituloNotici12_15(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_15().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_15))})
+        })
+    }
+
+    ValidarParrafoNotici12_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici12_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_10))})
+        })
+    }
+
+    ValidarParrafoNotici12_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici12_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_11))})
+        })
+    }
+
+    ValidarParrafoNotici12_12(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici12_12().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_12))})
+        })
+    }
+
+    ValidarParrafoNotici12_13(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici12_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_13))})
+        })
+    }
+
+    ValidarTituloNotici12_16(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_16().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_16))})
+        })
+    }
+
+    ValidarParrafoNotici12_14() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici12_14().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici12_14[index]))}) 
+            }); 
+        });
+    }
+
+    ValidarTituloNotici12_17(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici12_17().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici12_17))})
+        })
+    }
+
+
+    ///Noticias 13
+    clickBotonVermasNotici13(){
+        noticiaBiene.obtenerBotonVermasNotici13()
+        .invoke('removeAttr', 'target')
+        .click()
+
+    }
+
+    ValidarTituloNotici13_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici13_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici13_1))})
+        })
+    }
+
+
+    ValidarParrafoNotici13_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici13_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici13_1[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici13_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerTituloNotici13_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.TituloNotici13_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici13_3() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerTituloNotici13_3().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.TituloNotici13_3[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici13_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici13_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici13_2))})
+        })
+    }
+
+    ValidarParrafoNotici13_3() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici13_3().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici13_3[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici13_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici13_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici13_4))})
+        })
+    }
+
+
+    ///Noticias 14
+    clickBotonVermasNotici14(){
+        noticiaBiene.obtenerBotonVermasNotici14()
+        .invoke('removeAttr', 'target')
+        .click()
+    }
+
+    ValidarTituloNotici14_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici14_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici14_1))})
+        })
+    }
+
+    validarimg_14_1  = () => {
+        noticiaBiene.obtenerimg_14_1()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
+    validarimg_14_2  = () => {
+        noticiaBiene.obtenerimg_14_2()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
+    validarimg_14_3  = () => {
+        noticiaBiene.obtenerimg_14_3()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
+    validarimg_14_4  = () => {
+        noticiaBiene.obtenerimg_14_4()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
+    validarimg_14_5  = () => {
+        noticiaBiene.obtenerimg_14_5()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
+
+    ///Noticias 15
+    clickBotonVermasNotici15(){
+        noticiaBiene.obtenerBotonVermasNotici15()
+        .invoke('removeAttr', 'target')
+        .click()
+    }
+
+    ValidarTituloNotici15_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici15_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici15_1))})
+        })
+    }
+
+    ValidarParrafoNotici15_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici15_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici15_1[index]))}) 
+            });
+        });
+    }
+
+    ///Noticias 16
+    clickBotonVermasNotici16(){
+        noticiaBiene.obtenerBotonVermasNotici16()
+        .invoke('removeAttr', 'target')
+        .click()
+    }
+
+    ValidarTituloNotici16_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici16_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici16_1))})
+        })
+    }
+
+    ValidarTituloNotici16_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici16_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici16_2))})
+        })
+    }
+
+    ValidarParrafoNotici16_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici16_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici16_1[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici16_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici16_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici16_2[index]))}) 
+            });
+        });
+    }
+
+    ///Noticias 17
+    clickBotonVermasNotici17(){
+        noticiaBiene.obtenerBotonVermasNotici17()
+        .invoke('removeAttr', 'target')
+        .click()
+    }
+
+    ValidarTituloNotici17_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici17_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici17_1))})
+        })
+    }
+
+    ValidarParrafoNotici17_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici17_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici17_1[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici17_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici17_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici17_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici17_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici17_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici17_2))})
+        })
+    }
+
+    validarimg_17_1  = () => {
+        noticiaBiene.obtenerimg_17_1()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
+    ValidarTituloNotici17_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici17_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici17_3))})
+        })
+    }
+
+    validarimg_17_2  = () => {
+        noticiaBiene.obtenerimg_17_2()
+        .should('exist')  
+        .should('be.visible', { timeout: 10000 }) // Valida que la imagen sea visible
+        .and('have.attr', 'src') // Valida que tenga el atributo 'src'
+    };
+
+
+    ///Noticias 18
+    clickBotonVermasNotici18(){
+        noticiaBiene.obtenerBotonVermasNotici18()
+        .invoke('removeAttr', 'target')
+        .click()
+    }
+
+    ValidarTituloNotici18_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici18_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici18_1))})
+        })
+    }
+
+    ValidarTituloNotici18_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici18_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici18_2))})
+        })
+    }
+
+    ValidarParrafoNotici18_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici18_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici18_1))})
+        })
+    }
+
+    ValidarTituloNotici18_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici18_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici18_3))})
+        })
+    }
+
+    ValidarParrafoNotici18_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoNotici18_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici18_2))})
+        })
+    }
+
+    ValidarParrafoNotici18_3() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici18_3().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici18_3[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici18_4() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerTituloNotici18_4().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.TituloNotici18_4[index]))}) 
+            });
+        });
+    }
+
+
+    ValidarParrafoNotici18_4() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici18_4().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici18_4[index]))}) 
+            });
+        });
+    }
+
+    ///Noticias 19
+    clickBotonVermasNotici19(){
+        noticiaBiene.obtenerBotonVermasNotici19()
+        .invoke('removeAttr', 'target')
+        .click()
+    }
+
+    ValidarTituloNotici19_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici19_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici19_1))})
+        })
+    }
+
+    ValidarParrafoNotici19_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici19_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici19_1[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoNotici19_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici19_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici19_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloNotici19_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici19_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici19_2))})
+        })
+    }
+
+    ///Noticias 20
+    clickBotonVermasNotici20(){
+        noticiaBiene.obtenerBotonVermasNotici20()
+        .invoke('removeAttr', 'target')
+        .click()
+    }
+
+    ValidarTituloNotici20_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloNotici20_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloNotici20_1))})
+        })
+    }
+
+    ValidarParrafoNotici20_1() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoNotici20_1().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoNotici20_1[index]))}) 
+            });
+        });
+    }
+
+
+
+    ///Fechas Especiales
+    ///NOTICIA 1
+    clickBotonFechEspe(){
+        noticiaBiene.obtenerBotonFechEspe()
+        .eq(0)
+        .invoke('removeAttr', 'target')
+        .click()
+    }
+    
+    clickBotonVermasFechEspe1(){
+        noticiaBiene.obtenerBotonVermasFechEspe1()
+        .click()
+        .invoke('removeAttr', 'target')
+
+    }
+
+    ValidarTituloFechEspe1_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_1))})
+        })
+    }
+
+    ValidarTituloFechEspe1_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_2))})
+        })
+    }
+
+    ValidarParrafoFechEspe1_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe1_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_1))})
+        })
+    }
+
+    ValidarTituloFechEspe1_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_3))})
+        })
+    }
+
+    ValidarParrafoFechEspe1_2() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoFechEspe1_2().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_2[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloFechEspe1_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_4))})
+        })
+    }
+
+    ValidarTituloFechEspe1_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_5))})
+        })
+    }
+
+    ValidarTituloFechEspe1_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_6))})
+        })
+    }
+
+    ValidarTituloFechEspe1_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_7))})
+        })
+    }
+
+    ValidarTituloFechEspe1_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_8))})
+        })
+    }
+
+    ValidarTituloFechEspe1_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_9))})
+        })
+    }
+
+    ValidarParrafoFechEspe1_3() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoFechEspe1_3().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_3[index]))}) 
+            });
+        });
+    }
+
+    ValidarTituloFechEspe1_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_10))})
+        })
+    }
+
+    ValidarParrafoFechEspe1_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe1_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_4))})
+        })
+    }
+
+    ValidarParrafoFechEspe1_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe1_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_5))})
+        })
+    }
+
+    ValidarParrafoFechEspe1_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe1_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_6))})
+        })
+    }
+
+    ValidarParrafoFechEspe1_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe1_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_7))})
+        })
+    }
+
+    ValidarTituloFechEspe1_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe1_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe1_11))})
+        })
+    }
+
+    ValidarParrafoFechEspe1_8() {
+        cy.fixture('noticiaBieneExam').then((data) => {
+            noticiaBiene.obtenerParrafoFechEspe1_8().each(($el, index) => { 
+                cy.wrap($el).invoke('text').then(text => 
+                    {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_8[index]))}) 
+            });
+        });
+    }
+
+    ValidarParrafoFechEspe1_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe1_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe1_9))})
+        })
+    }
+
+
+    //Noticia 2
+    clickBotonVermasFechEspe2(){
+        noticiaBiene.obtenerBotonVermasFechEspe2()
+        .click()
+        .invoke('removeAttr', 'target')
+
+    }
+
+    ValidarTituloFechEspe2_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_1))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_1))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_2))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_3))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_4))})
+        })
+    }
+
+    ValidarTituloFechEspe2_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_2))})
+        })
+    }
+
+    ValidarTituloFechEspe2_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_3))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_5))})
+        })
+    }
+
+    ValidarTituloFechEspe2_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_4))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_6))})
+        })
+    }
+
+    ValidarTituloFechEspe2_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_5))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_7))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_8))})
+        })
+    }
+
+    ValidarTituloFechEspe2_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_6))})
+        })
+    }
+
+    ValidarTituloFechEspe2_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_7))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_9))})
+        })
+    }
+
+    ValidarTituloFechEspe2_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_8))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_10))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_11))})
+        })
+    }
+
+    ValidarTituloFechEspe2_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_9))})
+        })
+    }
+
+    ValidarTituloFechEspe2_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_10))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_12(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_12().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_12))})
+        })
+    }
+
+    ValidarTituloFechEspe2_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_11))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_13(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_13))})
+        })
+    }
+
+    ValidarTituloFechEspe2_12(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_12().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_12))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_14(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_14().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_14))})
+        })
+    }
+
+    ValidarTituloFechEspe2_13(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_13))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_15(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_15().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_15))})
+        })
+    }
+
+    ValidarTituloFechEspe2_14(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe2_14().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe2_14))})
+        })
+    }
+
+    ValidarParrafoFechEspe2_16(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_16().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_16))})
+        })
+    }
+
+    clickBotonFotosFechEspe2(){
+        noticiaBiene.obtenerBotonFotosFechEspe2()
+        cy.url('https://drive.google.com/drive/folders/1Gf3uHP61xai8bnRmwh77dOPh5mCjk4A0?usp=drive_link')
+    }
+
+    ValidarParrafoFechEspe2_17(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe2_17().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe2_17))})
+        })
+    }
+
+
+
+    
+
+    //Noticia 3
+    clickBotonVermasFechEspe3(){
+        noticiaBiene.obtenerBotonVermasFechEspe3()
+        .click()
+        .invoke('removeAttr', 'target')
+
+    }
+
+    ValidarTituloFechEspe3_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_1))})
+        })
+    }
+
+    ValidarTituloFechEspe3_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_2))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_1(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_1().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_1))})
+        })
+    }
+
+    ValidarTituloFechEspe3_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_3))})
+        })
+    }
+
+    ValidarTituloFechEspe3_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_4))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_2(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_2().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_2))})
+        })
+    }
+
+    ValidarTituloFechEspe3_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_5))})
+        })
+    }
+
+    ValidarTituloFechEspe3_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_6))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_3(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_3().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_3))})
+        })
+    }
+
+    ValidarTituloFechEspe3_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_7))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_4(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_4().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_4))})
+        })
+    }
+
+    ValidarTituloFechEspe3_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_8))})
+        })
+    }
+
+    ValidarTituloFechEspe3_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_9))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_5(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_5().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_5))})
+        })
+    }
+
+    ValidarTituloFechEspe3_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_10))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_6(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_6().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_6))})
+        })
+    }
+
+    ValidarTituloFechEspe3_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_11))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_7(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_7().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_7))})
+        })
+    }
+
+    ValidarTituloFechEspe3_12(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_12().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_12))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_8(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_8().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_8))})
+        })
+    }
+
+    ValidarTituloFechEspe3_13(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_13))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_9(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_9().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_9))})
+        })
+    }
+
+    ValidarTituloFechEspe3_14(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_14().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_14))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_10(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_10().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_10))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_11(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_11().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_11))})
+        })
+    }
+
+    ValidarTituloFechEspe3_15(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_15().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_15))})
+        })
+    }
+
+    ValidarTituloFechEspe3_16(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_16().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_16))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_12(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_12().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_12))})
+        })
+    }
+
+    ValidarTituloFechEspe3_17(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_17().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_17))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_13(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_13().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_13))})
+        })
+    }
+
+    ValidarTituloFechEspe3_18(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_18().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_18))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_14(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_14().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_14))})
+        })
+    }
+
+    ValidarTituloFechEspe3_19(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerTituloFechEspe3_19().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.TituloFechEspe3_19))})
+        })
+    }
+
+    ValidarParrafoFechEspe3_15(){
+        cy.fixture("noticiaBieneExam").then((data) => {
+        noticiaBiene.obtenerParrafoFechEspe3_15().invoke('text').then(text => 
+                {expect(normalice(text)).to.contain(normalice(data.ParrafoFechEspe3_15))})
+        })
+    }
+
+
 }
 export default new noticiaBieneNewsActions();

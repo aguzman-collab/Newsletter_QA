@@ -89,7 +89,7 @@ export function noticiasSSTSuites(){
         noticiasSSTNewsActions.ValidarTituloNotici4_6(); 
         });
 
-        it.only("Section - Noticia5", () =>{
+        it("Section - Noticia5", () =>{
         cy.viewport(1200,800)
         url.urltribu()
         tribuNewsActions.clickBotonCerrarTribu1();

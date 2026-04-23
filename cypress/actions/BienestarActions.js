@@ -1106,30 +1106,17 @@ class bienestarNewsActions{
         cy.url('https://newsletter.nutrabiotics.com.co/fiesta-nutra-kids-2025/')
     }
 
-    ///Herramientas
-
-    clickBotonHerra(){
-        Bienestar.obtenerBotonHerra().eq(1)
-        .click()
-    }
-
-    ValidarTituloPrinHerra(){
-        cy.fixture("bienestarExam").then((data) => {
-        Bienestar.obtenerTituloPrinHerra().eq(2).should('have.text', data.TituloPrinHerra) 
-        })
-    }
-
 
     ///Reconocimientos
 
     clickBotonRecono(){
-        Bienestar.obtenerBotonRecono().eq(2)
+        Bienestar.obtenerBotonRecono().eq(1)
         .click()
     }
 
     ValidarTituloPrinRecono(){
         cy.fixture("bienestarExam").then((data) => {
-        Bienestar.obtenerTituloPrinRecono().eq(3).should('have.text', data.TituloPrinRecono) 
+        Bienestar.obtenerTituloPrinRecono().eq(2).should('have.text', data.TituloPrinRecono) 
         })
     }
 
