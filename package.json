@@ -18,7 +18,7 @@
     "merge-reports": "mochawesome-merge cypress/reports/.jsons/*.json > cypress/reports/mochawesome.json",
     "generate-html": "marge cypress/reports/mochawesome.json --reportDir cypress/reports --reportFilename index",
     "generate-pdf": "node cypress/scripts/generate-pdf.js",
-    "report:pdf": "rimraf cypress/reports && cypress run --spec cypress/e2e/nutraapp.cy.js && npm run merge-reports && npm run generate-html && npm run generate-pdf && npm run lighthouse",
+    "report:pdf": "rimraf cypress/reports & cypress run --spec cypress/e2e/newsletter.cy.js & npm run merge-reports & npm run generate-html & npm run generate-pdf && npm run lighthouse",
     "lighthouse": "lighthouse https://newsletter.nutrabiotics.com.co/ --output html --output-path ./cypress/reports/lighthouse.html"
   },
   "dependencies": {

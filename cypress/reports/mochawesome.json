@@ -1,0 +1,201 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2026-04-27T16:13:43.224Z",
+    "end": "2026-04-27T16:14:22.371Z",
+    "duration": 39147
+  },
+  "results": [
+    {
+      "uuid": "9ea7da85-888d-4c15-b57a-1f2baf26ff19",
+      "title": "",
+      "fullFile": "cypress\\e2e\\newsletter.cy.js",
+      "file": "cypress\\e2e\\newsletter.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9049e2db-3799-4d1b-97ae-5d344ae7ac92",
+          "title": "Automatizacion - Bienestar",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Section - Bienestar",
+              "fullTitle": "Automatizacion - Bienestar Section - Bienestar",
+              "timedOut": null,
+              "duration": 6643,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(1200, 800);\n_url.default.urlbienestar();\n_BienestarActions.default.ValidarTextoBienes1();\n_BienestarActions.default.ValidarParrafoBienes1();\n_BienestarActions.default.validarImgBienes();",
+              "err": {},
+              "uuid": "6bb1876f-139a-49a0-8e03-c0fa48724edc",
+              "parentUUID": "9049e2db-3799-4d1b-97ae-5d344ae7ac92",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Section - Parchando",
+              "fullTitle": "Automatizacion - Bienestar Section - Parchando",
+              "timedOut": null,
+              "duration": 4590,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(1200, 800);\n_url.default.urlbienestar();\n_BienestarActions.default.ValidarTextoMini();\n_BienestarActions.default.ValidarTituloCumbre();\n_BienestarActions.default.ValidarParrafoCumbre();\n_BienestarActions.default.clickbotonobtenerVermas1();\n_BienestarActions.default.ValidarTextoMini2();\n_BienestarActions.default.ValidarTituloPedaleando();\n_BienestarActions.default.ValidarParrafoPedaleando();\n_BienestarActions.default.clickbotonobtenerVermas2();\n_BienestarActions.default.ValidarTextoMini3();\n_BienestarActions.default.ValidarTituloBastidas();\n_BienestarActions.default.ValidarParrafoBastidas();\n_BienestarActions.default.clickbotonobtenerVermas3();\n_BienestarActions.default.ValidarTextoMini4();\n_BienestarActions.default.ValidarTituloGarcia();\n_BienestarActions.default.ValidarParrafoGarcia();\n_BienestarActions.default.clickbotonobtenerVermas4();\n_BienestarActions.default.ValidarTextoMini5();\n_BienestarActions.default.ValidarTituloAcuña();\n_BienestarActions.default.ValidarParrafoAcuña();\n_BienestarActions.default.clickbotonobtenerVermas5();\n_BienestarActions.default.ValidarTextoMini6();\n_BienestarActions.default.ValidarTituloCopa();\n_BienestarActions.default.ValidarParrafoCopa();\n_BienestarActions.default.clickbotonobtenerVermas6();\n_BienestarActions.default.ValidarTextoMini7();\n_BienestarActions.default.ValidarTituloLokochon();\n_BienestarActions.default.ValidarParrafoLokochon();\n_BienestarActions.default.clickbotonobtenerVermas7();\n_BienestarActions.default.ValidarTextoMini8();\n_BienestarActions.default.ValidarTituloJuntos();\n_BienestarActions.default.ValidarParrafoJuntos();\n_BienestarActions.default.clickbotonobtenerVermas8();",
+              "err": {},
+              "uuid": "d8b8d45c-8f06-4297-909b-743c088af0da",
+              "parentUUID": "9049e2db-3799-4d1b-97ae-5d344ae7ac92",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Section - La Tribu Ayuda",
+              "fullTitle": "Automatizacion - Bienestar Section - La Tribu Ayuda",
+              "timedOut": null,
+              "duration": 6758,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(1200, 800);\n_url.default.urlbienestar();\n_BienestarActions.default.clickBotonTribuAyu();\n_BienestarActions.default.ValidarTituloPrinTribu();\n_BienestarActions.default.ValidarTituloMiniEmpreu();\n_BienestarActions.default.ValidarTituloPrin1();\n_BienestarActions.default.ValidarParrafo1();\n_BienestarActions.default.clickBotonVermas1();\n_BienestarActions.default.ValidarTituloMiniVolu1();\n_BienestarActions.default.ValidarTituloPrin2();\n_BienestarActions.default.ValidarParrafo2();\n_BienestarActions.default.clickBotonVermas2();\n_BienestarActions.default.ValidarTituloMiniVolu2();\n_BienestarActions.default.ValidarTituloPrin3();\n_BienestarActions.default.ValidarParrafo3();\n_BienestarActions.default.clickBotonVermas3();\n_BienestarActions.default.ValidarTituloMiniVolu3();\n_BienestarActions.default.ValidarTituloPrin4();\n_BienestarActions.default.ValidarParrafo4();\n_BienestarActions.default.clickBotonVermas4();\n_BienestarActions.default.ValidarTituloMiniVolu4();\n_BienestarActions.default.ValidarTituloPrin5();\n_BienestarActions.default.ValidarParrafo5();\n_BienestarActions.default.clickBotonVermas5();\n_BienestarActions.default.ValidarTituloMiniCamp();\n_BienestarActions.default.ValidarTituloPrin6();\n_BienestarActions.default.ValidarParrafo6();\n_BienestarActions.default.clickBotonVermas6();\n_BienestarActions.default.ValidarTituloMiniCamp1();\n_BienestarActions.default.ValidarTituloPrin7();\n_BienestarActions.default.ValidarParrafo7();\n_BienestarActions.default.clickBotonVermas7();\n_BienestarActions.default.ValidarTituloMiniVolu5();\n_BienestarActions.default.ValidarTituloPrin8();\n_BienestarActions.default.ValidarParrafo8();\n_BienestarActions.default.clickBotonVermas8();\n_BienestarActions.default.ValidarTituloMiniVolu6();\n_BienestarActions.default.ValidarTituloPrin9();\n_BienestarActions.default.ValidarParrafo9();\n_BienestarActions.default.clickBotonVermas9();",
+              "err": {},
+              "uuid": "0fa6157e-12bd-4ded-8450-d029b86f1220",
+              "parentUUID": "9049e2db-3799-4d1b-97ae-5d344ae7ac92",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Section - Noticias",
+              "fullTitle": "Automatizacion - Bienestar Section - Noticias",
+              "timedOut": null,
+              "duration": 8897,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(1200, 800);\n_url.default.urlbienestar();\n_BienestarActions.default.clickBotonNoti();\n_BienestarActions.default.ValidarTituloPrinNoti();\n_BienestarActions.default.ValidarTituloMiniCumpl1();\n_BienestarActions.default.ValidarTituloNoti1();\n_BienestarActions.default.ValidarParrafoNoti1();\n_BienestarActions.default.clickBotonVermasNoti1();\n_BienestarActions.default.ValidarTituloMiniCumpl2();\n_BienestarActions.default.ValidarTituloNoti2();\n_BienestarActions.default.ValidarParrafoNoti2();\n_BienestarActions.default.clickBotonVermasNoti2();\n_BienestarActions.default.ValidarTituloMiniCumpl3();\n_BienestarActions.default.ValidarTituloNoti3();\n_BienestarActions.default.ValidarParrafoNoti3();\n_BienestarActions.default.clickBotonVermasNoti3();\n_BienestarActions.default.ValidarTituloMiniCumpl4();\n_BienestarActions.default.ValidarTituloNoti4();\n_BienestarActions.default.ValidarParrafoNoti4();\n_BienestarActions.default.clickBotonVermasNoti4();\n_BienestarActions.default.ValidarTituloMiniCumpl5();\n_BienestarActions.default.ValidarTituloNoti5();\n_BienestarActions.default.ValidarParrafoNoti5();\n_BienestarActions.default.clickBotonVermasNoti5();\n_BienestarActions.default.ValidarTituloMiniCumpl6();\n_BienestarActions.default.ValidarTituloNoti6();\n_BienestarActions.default.ValidarParrafoNoti6();\n_BienestarActions.default.clickBotonVermasNoti6();\n_BienestarActions.default.ValidarTituloMiniCumpl7();\n_BienestarActions.default.ValidarTituloNoti7();\n_BienestarActions.default.ValidarParrafoNoti7();\n_BienestarActions.default.clickBotonVermasNoti7();\n_BienestarActions.default.ValidarTituloMiniCumpl8();\n_BienestarActions.default.ValidarTituloNoti8();\n_BienestarActions.default.ValidarParrafoNoti8();\n_BienestarActions.default.clickBotonVermasNoti8();\n_BienestarActions.default.ValidarTituloMiniVan9();\n_BienestarActions.default.ValidarTituloNoti9();\n_BienestarActions.default.ValidarParrafoNoti9();\n_BienestarActions.default.clickBotonVermasNoti9();\n_BienestarActions.default.ValidarTituloMiniCumpl10();\n_BienestarActions.default.ValidarTituloNoti10();\n_BienestarActions.default.ValidarParrafoNoti10();\n_BienestarActions.default.clickBotonVermasNoti10();\n_BienestarActions.default.ValidarTituloMiniCumpl11();\n_BienestarActions.default.ValidarTituloNoti11();\n_BienestarActions.default.ValidarParrafoNoti11();\n_BienestarActions.default.clickBotonVermasNoti11();\n///bienestarNewsActions.ValidarTituloMiniCumpl12(); \n_BienestarActions.default.ValidarTituloNoti12();\n_BienestarActions.default.ValidarParrafoNoti12();\n_BienestarActions.default.clickBotonVermasNoti12();\n_BienestarActions.default.ValidarTituloMiniAltr13();\n_BienestarActions.default.ValidarTituloNoti13();\n_BienestarActions.default.ValidarParrafoNoti13();\n_BienestarActions.default.clickBotonVermasNoti13();\n_BienestarActions.default.ValidarTituloMiniAltr14();\n_BienestarActions.default.ValidarTituloNoti14();\n_BienestarActions.default.ValidarParrafoNoti14();\n_BienestarActions.default.clickBotonVermasNoti14();\n_BienestarActions.default.ValidarTituloMiniEntu15();\n_BienestarActions.default.ValidarTituloNoti15();\n_BienestarActions.default.ValidarParrafoNoti15();\n_BienestarActions.default.clickBotonVermasNoti15();\n_BienestarActions.default.ValidarTituloMiniCumpl16();\n_BienestarActions.default.ValidarTituloNoti16();\n_BienestarActions.default.ValidarParrafoNoti16();\n_BienestarActions.default.clickBotonVermasNoti16();\n_BienestarActions.default.ValidarTituloMiniCumpl17();\n_BienestarActions.default.ValidarTituloNoti17();\n_BienestarActions.default.ValidarParrafoNoti17();\n_BienestarActions.default.clickBotonVermasNoti17();\n_BienestarActions.default.ValidarTituloMiniAltr18();\n_BienestarActions.default.ValidarTituloNoti18();\n_BienestarActions.default.ValidarParrafoNoti18();\n_BienestarActions.default.clickBotonVermasNoti18();\n_BienestarActions.default.ValidarTituloMiniEspi19();\n_BienestarActions.default.ValidarTituloNoti19();\n_BienestarActions.default.ValidarParrafoNoti19();\n_BienestarActions.default.clickBotonVermasNoti19();\n_BienestarActions.default.ValidarTituloMiniCumpl20();\n_BienestarActions.default.ValidarTituloNoti20();\n_BienestarActions.default.ValidarParrafoNoti20();\n_BienestarActions.default.clickBotonVermasNoti20();",
+              "err": {},
+              "uuid": "07a9dc2f-a9b5-414c-93ea-c620b563a1f2",
+              "parentUUID": "9049e2db-3799-4d1b-97ae-5d344ae7ac92",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Section - Fechas Especiales",
+              "fullTitle": "Automatizacion - Bienestar Section - Fechas Especiales",
+              "timedOut": null,
+              "duration": 3683,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(1200, 800);\n_url.default.urlbienestar();\n_BienestarActions.default.clickBotonFechaEspe();\n_BienestarActions.default.ValidarTituloPrinFechaEspe();\n_BienestarActions.default.ValidarTituloMiniEntuFecha1();\n_BienestarActions.default.ValidarTituloFecha1();\n_BienestarActions.default.ValidarParrafoFecha1();\n_BienestarActions.default.clickBotonVermasFecha1();\n_BienestarActions.default.ValidarTituloMiniEntuFecha2();\n_BienestarActions.default.ValidarTituloFecha2();\n_BienestarActions.default.ValidarParrafoFecha2();\n_BienestarActions.default.clickBotonVermasFecha2();\n_BienestarActions.default.ValidarTituloMiniEntuFecha3();\n_BienestarActions.default.ValidarTituloFecha3();\n_BienestarActions.default.ValidarParrafoFecha3();\n_BienestarActions.default.clickBotonVermasFecha3();",
+              "err": {},
+              "uuid": "84d102b2-2e17-44bc-9f1a-6d650e5ee954",
+              "parentUUID": "9049e2db-3799-4d1b-97ae-5d344ae7ac92",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Section - Reconocimientos",
+              "fullTitle": "Automatizacion - Bienestar Section - Reconocimientos",
+              "timedOut": null,
+              "duration": 3319,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(1200, 800);\n_url.default.urlbienestar();\n_BienestarActions.default.clickBotonRecono();\n_BienestarActions.default.ValidarTituloPrinRecono();\n_BienestarActions.default.ValidarTituloPrinCumplea();\n_BienestarActions.default.validarImgDici1();\n_BienestarActions.default.validarImgDici2();\n_BienestarActions.default.validarImgDici3();",
+              "err": {},
+              "uuid": "c75bbdde-9e7f-413d-94fd-909f68239133",
+              "parentUUID": "9049e2db-3799-4d1b-97ae-5d344ae7ac92",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6bb1876f-139a-49a0-8e03-c0fa48724edc",
+            "d8b8d45c-8f06-4297-909b-743c088af0da",
+            "0fa6157e-12bd-4ded-8450-d029b86f1220",
+            "07a9dc2f-a9b5-414c-93ea-c620b563a1f2",
+            "84d102b2-2e17-44bc-9f1a-6d650e5ee954",
+            "c75bbdde-9e7f-413d-94fd-909f68239133"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 33890,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/.jsons",
+        "charts": true,
+        "reportPageTitle": "Reporte Cypress",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+      },
+      "version": "6.3.2"
+    }
+  }
+}

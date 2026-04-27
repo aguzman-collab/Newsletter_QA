@@ -1,10 +1,10 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  reporter: "cypress-mochawesome-reporter",
+  reporter: 'mochawesome',
 
   reporterOptions: {
-    reportDir: "cypress/reports",
+    reportDir: 'cypress/reports/.jsons',
     charts: true,
     reportPageTitle: "Reporte Cypress",
     embeddedScreenshots: true,
